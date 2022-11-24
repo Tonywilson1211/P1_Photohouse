@@ -46,7 +46,7 @@ nav span {
     letter-spacing: 2px;
     text-decoration: none;
     font-size: 1.5em;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
 }
 
 #contact-us {
@@ -125,7 +125,6 @@ nav ul li a:hover {
 .hero-image {
     height: 100vh;
     width: 100%;
-    margin-top: -150px;
     background-image: url('../images/Hero33.jpg');
     background-size: cover;
     background-position: center;
@@ -146,11 +145,11 @@ nav ul li a:hover {
     padding: 15px;
     text-align: center;
     color:#2f4858;
-    font-family: lato;   
+    font-family: 'lato', sans-serif;   
 }
 
 #cover-text2 h2 {
-    font-family: Lato, sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 2rem;
     letter-spacing: 3px;
 }
@@ -176,8 +175,6 @@ nav ul li a:hover {
     width: 33%;
     margin: 5px;
     text-align: justify;
-    
-    
 }
 
 .center-about {
@@ -189,18 +186,16 @@ nav ul li a:hover {
     order: 1;
 }
 
-
 .center-about h2 {
     text-align: center;
-    color: rgb(47, 72, 88);
+    color: #2f4858;
     font-size: 3.5em;
-    font-family: 'poppins', sans-serif;
     letter-spacing: 2px;
     padding: 10px;
 }
 
 .center-about h3,.left-about h3,.right-about h3 {
-    font-family: Dancing Script, sans-serif;
+    font-family: 'dancing script', sans-serif;
     font-size: 40px;
     font-weight: 900;
     text-align: center;
@@ -209,7 +204,6 @@ nav ul li a:hover {
 }
 
 .about p {
-    font-family: 'poppins';
     font-size: 1.5em;
     color:#2f4858;
     font-weight: 400;
@@ -224,7 +218,132 @@ nav ul li a:hover {
     text-align: justify;
 }
 
+/* home page - services section */
 
+.serivces {
+    background: linear-gradient(258deg, #82af21ad 0%, #34a14fb7 16%, #008e6daf 33%, #007779b0 50%, #005e71ad 66%, #2f485871 83%, #00ffd979 100%);
+    width: 100%;
+    padding: 50px;
+    height: 100vh;
+}
+
+.services-title h2 {
+    color: #fff;
+    font-size: 3.5em;
+    margin-top: 150px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.services-title h3 {
+    color: #fff;
+}
+
+.services-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.services-card {
+    height: 600px;
+    width: 400px;
+    padding: 20px 35px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.services-card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: #82af21;
+    padding-bottom: 40px;
+}
+
+.services-card i:hover {
+    color: #2f4858;
+}
+
+h5 {
+    color: #82af21;
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-family: 'dancing script', sans-serif;
+}
+
+.pra p {
+    padding-bottom: 40px;
+    color: #2f4858;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.services-card .button {
+    background-color: #82af21;
+    color: #fff;    
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'lato', sans-serif;
+}
+
+.services-card .button:hover {
+    background-color: #2f4858;
+}
+
+/* Page Break */
+
+.pagebreak {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+
+/*home page - contact us section*/
+
+.contact-us-container {
+    width: 100%;
+    height: 290px;
+    background-image: url('../images/Hero22.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us-button {
+    display: block;
+    width: 50%;
+    height: 150px;
+    background-color: rgba(255, 255, 255,0.9);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: Dancing Script;
+    font-size: 4em;
+    color: #82af21;
+    border: 2px solid #2f4858;
+}
+
+.contact-us-button:hover {
+    background-color: rgb(47, 72, 88,0.9);
+    color: #fff;
+    border: 2px solid #82af21;
+}
+
+/* Gallery Section - Home page*/
 
 /* Media Query */
 
@@ -298,21 +417,16 @@ nav ul li a:hover {
         display: block;
     }
 
-    /* home page - cover text and hero image*/
-
-    .hero-image {
-        height: 100vh;
-        margin-top: 0;
-    }
+    /* home page - cover text*/
 
     #cover-text h2 {
-        font-family: Lato, sans-serif;
+        font-family: 'lato', sans-serif;
         font-size: 1rem;
         letter-spacing: 1px;
     }
     
     #cover-text h3 {
-        font-family: Dancing Script, sans-serif;
+        font-family: 'dancing script', sans-serif;
         font-size: 1rem;
     }
 
@@ -356,7 +470,6 @@ nav ul li a:hover {
     }
     
     .about p {
-        font-family: 'poppins';
         font-size: 1em;
         color:#2f4858;
     }
