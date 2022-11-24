@@ -15,49 +15,67 @@ nav {
     height: 150px;
     background-color: rgb(47, 72, 88, 0.8);
     display: flex;
-    justify-content: space-between;
-    padding-left: 9%;
-    padding-right: 9%;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 10;
-}
-
-#contact-us {
-    display: none;
+    justify-content: center;
 }
 
 #logo {
     color:#82af21;
     font-size: 3.5em;
     letter-spacing: 2px;    
-    font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;    
 }
 
 nav span {
     color: #fff;
     text-decoration: none;
     font-family: 'Anton', sans-serif;
+    text-align: left;
+}
+
+.contact-button {
+    background-color: #82af21;
+    color: #fff;    
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 30px 30px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Lato;
+}
+
+#contact-us {
+    display: none;
+}
+
+.contact-button:hover {
+    transform: scale(1.2);
+}
+
+nav ul {
+    justify-content: center;
+    padding-left: 5% ;
+    padding-right: 5%;
+    
 }
 
 nav ul li {
     list-style-type: none;
-    display: inline-block;
-    padding: 50px;    
-    align-content: center;
+    display: inline-block;   
 }
 
 nav ul li a{
     position: relative;
     color: #fff;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.7em;
     line-height: 80px;
-    padding: 50px;
+    padding: 40px;
     letter-spacing: 2px;
-    text-align: center;
-    align-content: center;
 }
 
 nav ul li a:before{
@@ -83,25 +101,22 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.contact-button {
-    background-color: #82af21;
-    color: #fff;    
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 30px 30px;
-    border-radius: 50px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    font-size: 28px;
-    font-family: Lato;
-}
-
-.contact-button:hover {
-    transform: scale(1.2);
-}
-
 .active {
     background-color: rgb(130, 175, 33, 0.4);
+}
+
+#menu-open, #menu-close {
+    font-size: 28px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
 }
 
 /* main page - hero image and cover text */
@@ -120,7 +135,7 @@ nav ul li a:hover {
 }
 
 #cover-text {
-    width: 30%;
+    width: 50%;
     height: 100px;
     position: absolute;
 }
@@ -149,16 +164,19 @@ nav ul li a:hover {
 .about {
     width: 100%;
     height: 100vh;
-    padding-top: 30vh ;
+    padding-top: 35vh ;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
+    
 }
 
 .flexbox-about {
     width: 33%;
     margin: 5px;
     text-align: justify;
+    
+    
 }
 
 .center-about {
@@ -174,8 +192,8 @@ nav ul li a:hover {
 .center-about h2 {
     text-align: center;
     color: rgb(47, 72, 88);
-    font-size: 2.5em;
-    font-family: Anton, sans-serif;
+    font-size: 3.5em;
+    font-family: 'poppins', sans-serif;
     letter-spacing: 2px;
     padding: 10px;
 }
@@ -190,10 +208,11 @@ nav ul li a:hover {
 }
 
 .about p {
-    font-family: lato;
-    font-size: 26px;
+    font-family: 'poppins';
+    font-size: 1.5em;
     color:#2f4858;
-    font-weight: bolder;
+    font-weight: 400;
+    padding: 15px;
 }
 
 .left-about {
@@ -202,4 +221,30 @@ nav ul li a:hover {
 
 .right-about p {
     text-align: justify;
+}
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 1200px) {
+    
+    #logo {
+        font-size: 2.5em;
+    }
+    
+    .contact-button {
+        font-weight: 400;
+        padding: 10px;
+        font-size: 1.2em;
+     }
+        
+    nav ul li a{
+        font-size: 1em;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    
 }
