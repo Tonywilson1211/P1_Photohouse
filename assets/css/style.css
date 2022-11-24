@@ -371,7 +371,6 @@ h5 {
 .gallery-image img {
     width: 100%;
     border-radius: 7px;
-    cursor: pointer;
     padding: 10px;
     
 }
@@ -382,7 +381,6 @@ h5 {
     position: absolute;
     top: 0;
     border-radius: 7px;
-    cursor: pointer;
     background: linear-gradient(rgba(0,0,0,0.5),#2f4858);
     opacity: 0;
     transition: 1s;
@@ -397,15 +395,13 @@ h5 {
 }
 
 .gallery-title h1 {
-    font-family: Anton;
-    font-size: 70px;
-    word-spacing: 4px;
+    font-size: 2.5em;
     color: #2f4858; 
 }
 
 .gallery-title h2 {
     font-family: Lato;
-    font-size: 50px;
+    font-size: 1.5;
     color: #2f4858; 
     padding-bottom: 20px;
     
@@ -413,7 +409,7 @@ h5 {
 
 .gallery-title h3 {
     font-family: Dancing Script;
-    font-size: 36px;
+    font-size: 2em;
     word-spacing: 4px;
     color: #82af21; 
     padding-bottom: 40px;
@@ -427,9 +423,10 @@ h5 {
     opacity: 0;
     transform: translateX(-50%);
     transition: 1s;
+    font-family: 'poppins';
 }
 
-hr {
+.gallery-text hr {
     background: #fff;
     height: 2px;
     border: 0;
@@ -437,13 +434,28 @@ hr {
     width: 60%;
 }
 
-.gallery-text p {
-    font-size: 14px;
+.gallery-text h3 {
+    font-size: 1.0em;
+    color: #fff;
+}
 
+.gallery-text p {
+    font-size: 1.0em;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.gallery-text a {
+    font-size: 1.0em;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(130, 175, 33, 0.9);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .gallery-image:hover .gallery-text {
-    bottom: 40%;
+    bottom: 20%;
     opacity: 1;
 }
 
@@ -525,6 +537,17 @@ hr {
     .services-card i {
         font-size: 3em;
         margin:0;
+    }
+
+    /* home page - gallery section */
+
+    .gallery-image {
+        flex-basis: 45%;
+        text-align: center;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        color: #fff;
+        position: relative; 
     }
 
 }
@@ -622,5 +645,38 @@ hr {
     }
     .services-card i {
             font-size: 2em;
+    }
+
+    /* home page - contact us */
+    
+    .contact-us-button {
+        font-size: 2em;
+    }
+    
+    /* home page - gallery section */
+
+    .gallery-box {
+        justify-content: center;
+    }
+    .gallery-image {
+        flex-basis: 99%;
+        margin: 0;
+        padding: 0;
+    }
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        border-radius: 7px;
+        background: linear-gradient(rgba(0,0,0,0.3),rgb(47, 72, 88,0.3));
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .gallery-text {
+    width: 100%;
+    height: 60%;
+    opacity: 1;
     }
 }
