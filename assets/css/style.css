@@ -278,7 +278,7 @@ h5 {
     font-family: 'dancing script', sans-serif;
 }
 
-.pra p {
+.services-text p {
     padding-bottom: 40px;
     color: #2f4858;
     font-size: 16px;
@@ -332,7 +332,7 @@ h5 {
     display: flex;
     align-items: center;
     font-family: Dancing Script;
-    font-size: 4em;
+    font-size: 3.5em;
     color: #82af21;
     border: 2px solid #2f4858;
 }
@@ -363,9 +363,71 @@ h5 {
         font-size: 1em;
         padding: 15px;
     }
+
+    /* home page - about section */
+
+    .about {
+        height: 1200px;
+        box-sizing: border-box;  
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .flexbox-about {
+        width: 100%; 
+    }
+
+    .right-about {
+        order: -1;
+    }
+     
+    .about h2 {
+        font-size: 2.5em;
+    }
+    .center-about h3,.left-about h3,.right-about h3 {
+        font-size: 1.8em;
+
+    }
+
+    .center-about h3 {
+        padding: 0;
+    }
+    
+    .about p {
+        font-size: 1em;
+        color:#2f4858;
+    }    
+
+    /* home page - services section */
+
+    .services-box {
+        box-sizing: border-box;  
+        display: flex;
+        flex-direction: column;
+
+    }
+    .services-card {
+        height: 400px;
+        width: 70%;
+    }
+    .services-title h2 {
+        color: #fff;
+        font-size: 3em;
+
+    }
+    .serivces {
+        height: 1800px;
+
+    }
+    .services-card i {
+        font-size: 3em;
+        margin:0;
+    }
+
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     
     /* nav bar */
 
@@ -439,38 +501,24 @@ h5 {
         padding: 5px;
     }
 
-    /* home page - about section */
+    /* home page - services section */
 
-    .about {
-        height: 1200px;
-        box-sizing: border-box;  
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 5%;
+    .services-card {
+            height: 500px;
+            width: 99%;
     }
-
-    .flexbox-about {
-        width: 100%; 
-    }
-
-    .right-about {
-        order: -1;
-    }
-     
-    .about h2 {
-        font-size: 2.5em;
-    }
-    .center-about h3,.left-about h3,.right-about h3 {
-        font-size: 1.8em;
-
-    }
-
-    .center-about h3 {
-        padding: 0;
-    }
+    .services-title h2 {
+            color: #fff;
+            font-size: 3em;
     
-    .about p {
-        font-size: 1em;
-        color:#2f4858;
+    }
+    .serivces {
+            height: 1800px;
+            margin: 0;
+            padding: 0;
+    
+    }
+    .services-card i {
+            font-size: 2em;
     }
 }
