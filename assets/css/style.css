@@ -343,7 +343,109 @@ h5 {
     border: 2px solid #82af21;
 }
 
-/* Gallery Section - Home page*/
+/* home page - gallery section */
+
+#gallery {
+    width: 100%;
+    padding: 70px 0;
+    background: #fff;
+}
+
+.gallery-box {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.gallery-image {
+    flex-basis: 25%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative; 
+}
+
+.gallery-image img {
+    width: 100%;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#2f4858);
+    opacity: 0;
+    transition: 1s;
+}
+
+.gallery-image:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-title {
+    text-align: center;
+}
+
+.gallery-title h1 {
+    font-family: Anton;
+    font-size: 70px;
+    word-spacing: 4px;
+    color: #2f4858; 
+}
+
+.gallery-title h2 {
+    font-family: Lato;
+    font-size: 50px;
+    color: #2f4858; 
+    padding-bottom: 20px;
+    
+}
+
+.gallery-title h3 {
+    font-family: Dancing Script;
+    font-size: 36px;
+    word-spacing: 4px;
+    color: #82af21; 
+    padding-bottom: 40px;
+}
+
+.gallery-text {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+}
+
+hr {
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+
+.gallery-text p {
+    font-size: 14px;
+
+}
+
+.gallery-image:hover .gallery-text {
+    bottom: 40%;
+    opacity: 1;
+}
 
 /* Media Query */
 
