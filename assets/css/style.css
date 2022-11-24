@@ -19,6 +19,7 @@ nav {
     position: fixed;
     top: 0;
     justify-content: center;
+    z-index: 10;
 }
 
 #logo {
@@ -247,4 +248,116 @@ nav ul li a:hover {
 
 @media screen and (max-width: 750px) {
     
+    /* nav bar */
+
+    #logo {
+        font-size: 1.5;
+    }
+
+    #menu-open {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(47, 72, 88, 0.9);
+        top: 150px;
+        left: -100%;
+        text-align: center;   
+        transition: all .5s;     
+    }
+
+    #check:checked ~ ul  {
+        left: 0;
+    }
+
+    #check:checked ~ label #menu-open {
+        display: none;
+    }
+
+    #check:checked ~ label #menu-close {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a{
+        display: block;
+        font-size: 1em;
+    }
+
+    .contact-button {
+        display: none;
+    }
+
+    #contact-us {
+        display: block;
+    }
+
+    /* home page - cover text and hero image*/
+
+    .hero-image {
+        height: 100vh;
+        margin-top: 0;
+    }
+
+    #cover-text h2 {
+        font-family: Lato, sans-serif;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    
+    #cover-text h3 {
+        font-family: Dancing Script, sans-serif;
+        font-size: 1rem;
+    }
+
+    #cover-text {
+        width: 100%;
+        height: 50px;
+    }
+
+    #cover-text2 {
+        padding: 5px;
+    }
+
+    /* home page - about section */
+
+    .about {
+        height: 1200px;
+        box-sizing: border-box;  
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .flexbox-about {
+        width: 100%; 
+    }
+
+    .right-about {
+        order: -1;
+    }
+     
+    .about h2 {
+        font-size: 2.5em;
+    }
+    .center-about h3,.left-about h3,.right-about h3 {
+        font-size: 1.8em;
+
+    }
+
+    .center-about h3 {
+        padding: 0;
+    }
+    
+    .about p {
+        font-family: 'poppins';
+        font-size: 1em;
+        color:#2f4858;
+    }
 }
