@@ -635,6 +635,7 @@ hr {
 
 .services-section {
     padding: 2%;   
+    margin-top: 150px;
 } 
 
 .services-title {
@@ -705,9 +706,9 @@ hr {
 }
 
 .services-section .text {
-    font-family: lato;
+    font-family: 'poppins';
     text-align: justify;
-    font-size: 28px;
+    font-size: 1em;
     color: #2f4858;
 }
 
@@ -742,6 +743,7 @@ button:hover {
     width: 100%;
     padding: 50px 0;
     background: #fff;
+    margin-top: 150px;
 }
 
 .gallerypage-box {
@@ -750,6 +752,7 @@ button:hover {
     flex-wrap: wrap;
     padding: 2%;
     margin: auto;
+    
     
 }
 
@@ -778,14 +781,14 @@ button:hover {
 
 .gallerypage-title h1 {
     font-family: Anton;
-    font-size: 70px;
+    font-size: 3em;
     word-spacing: 4px;
     color: #2f4858; 
 }
 
 .gallerypage-title h2 {
     font-family: Lato;
-    font-size: 50px;
+    font-size: 2em;
     color: #2f4858; 
     padding-bottom: 20px;
     
@@ -793,7 +796,7 @@ button:hover {
 
 .gallerypage-title h3 {
     font-family: Dancing Script;
-    font-size: 36px;
+    font-size: 1.5em;
     word-spacing: 4px;
     color: #82af21; 
     padding-bottom: 40px;
@@ -846,7 +849,6 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    margin-top: -150px;
 }
 
 
@@ -1046,7 +1048,7 @@ hr {
 @media screen and (max-width: 1200px) {
     
     #logo {
-        font-size: 2.5em;
+        font-size: 2.0em;
     }
     
     .contact-button {
@@ -1109,7 +1111,7 @@ hr {
     }
     .services-title h2 {
         color: #fff;
-        font-size: 3em;
+        font-size: 1.5em;
 
     }
     .serivces {
@@ -1135,6 +1137,47 @@ hr {
         color: #fff;
         position: relative; 
     }
+        /* footer section */
+
+    .footer {
+        position: static;
+    }
+     .footer,.footer .footer-left,.footer .footer-center,.footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer .footer-center i {
+        margin-left: 0;
+    }
+
+        /* services page */
+
+    .services-title {
+        font-size: 40px;
+    }
+
+    .photography {
+        background-size: 100%;
+        padding: 100px 0;
+    }
+        
+    .floorplan {
+        background-size: 100%;
+        padding: 100px 0;
+    }
+    
+    .epc {
+        background-size: 100%;
+        padding: 100px 0;
+    }
+    
+    .epc-section, .floorplan-section, .photography-section {
+        width: 100%;
+        padding: 4%;
+        background-color: rgb(246, 246, 246,0.9);
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -1142,7 +1185,8 @@ hr {
     /* nav bar */
 
     #logo {
-        font-size: 1.5;
+        font-size: 2em;
+        padding-left: 10px;
     }
 
     #menu-open {
@@ -1157,19 +1201,18 @@ hr {
         top: 150px;
         left: -100%;
         text-align: center;   
-        transition: all .5s;     
+        transition: all .5s;    
     }
-
-    #check:checked ~ ul  {
-        left: 0;
-    }
-
     #check:checked ~ label #menu-open {
         display: none;
     }
 
     #check:checked ~ label #menu-close {
         display: block;
+    }
+
+    nav {
+        justify-content: space-between; 
     }
 
     nav ul li {
@@ -1220,7 +1263,7 @@ hr {
 
     .services-title h2 {
         color: #fff;
-        font-size: 3em;
+        font-size: 1.5em;
     
     }
 
@@ -1268,18 +1311,37 @@ hr {
         opacity: 1;
     }
 
-    /* footer section */
-
-    .footer {
-        position: static;
-    }
-     .footer,.footer .footer-left,.footer .footer-center,.footer .footer-right {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
+    .gallerypage-image {
+        flex-basis: 90%;
         text-align: center;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        color: #fff;
+        margin: auto;
     }
-    .footer .footer-center i {
-        margin-left: 0;
+
+    .gallerypage-box {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2%;
+        margin: auto;
     }
+    
+    .gallerypage-image {
+        flex-basis: 100%;
+        text-align: center;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    
+    .gallerypage-image img {
+        width: 90%;
+        border-radius: 7px;
+        padding: 2px;
+        
+    }
+
+
 }
