@@ -376,14 +376,14 @@ nav ul li a:hover {
 }
 
 .gallery-title h3 {
-    font-family: Lato;
+    font-family: 'lato', sans-serif;
     font-size: 2em;
     padding-bottom: 20px;
     
 }
 
 .gallery-title h4 {
-    font-family: Dancing Script;
+    font-family: 'dancing script', sans-serif;
     font-size: 36px;
     word-spacing: 4px;
     color: #82af21; 
@@ -410,7 +410,6 @@ nav ul li a:hover {
 
 .gallery-text p {
     font-size: 14px;
-
 }
 
 .gallery-image:hover .gallery-text {
@@ -426,7 +425,7 @@ nav ul li a:hover {
 
 .clients-title h2 {
     text-align: center;
-    font-family: 'dancing script';
+    font-family: 'dancing script', sans-serif;
     color: #82af21;
     font-size: 3em;
 }
@@ -504,6 +503,7 @@ nav ul li a:hover {
     color: #82af21;
     text-decoration: none;
 }
+
 /* Footer center */
 
 .footer-center {
@@ -668,14 +668,13 @@ nav ul li a:hover {
 
 .services-section h2 {
     text-align: center;
-    font-family: dancing script;
+    font-family: 'dancing script',sans-serif;
     font-size: 50px;
     color: #82af21;
     padding-bottom: 40px;
 }
 
 .services-section .text {
-    font-family: 'poppins';
     text-align: justify;
     font-size: 1em;
     color: #2f4858;
@@ -683,9 +682,8 @@ nav ul li a:hover {
 
 button {
     text-align: center;
-    font-family: lato;
-    background-color: rgb(246, 246, 246,0.5);
-    color: #82af21;
+    font-family: 'lato',sans-serif;
+    background-color: #82af21;
     padding: 10px;
     font-size: 28px;
     border-radius: 15px;
@@ -699,32 +697,27 @@ button {
 }
 
 button:hover {
-    background-color: #82af21;
+    background-color: rgb(47, 72, 88);
     color: #fff;
 }
 
 
 /* Gallery Page */
 
-
-
 .gallerypage {
     width: 100%;
     padding: 50px 0;
     background: #fff;
     margin-top: 150px;
-    
 }
 
 .gallerypage-box {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     padding: 2%;
     margin: auto;
     justify-content: center;
-    
-    
 }
 
 .gallerypage-image {
@@ -739,7 +732,6 @@ button:hover {
     width: 90%;
     border-radius: 7px;
     padding: 2px;
-    
 }
 
 .gallerypage-image:hover {
@@ -751,14 +743,14 @@ button:hover {
 }
 
 .gallerypage-title h1 {
-    font-family: Anton;
-    font-size: 3em;
+    font-size: 4em;
     word-spacing: 4px;
     color: #2f4858; 
 }
 
 .gallerypage-title h2 {
-    font-family: Lato;
+    font-family: 'lato',sans-serif;
+    font-weight: normal;
     font-size: 2em;
     color: #2f4858; 
     padding-bottom: 20px;
@@ -766,7 +758,7 @@ button:hover {
 }
 
 .gallerypage-title h3 {
-    font-family: Dancing Script;
+    font-family: 'dancing script',sans-serif;
     font-size: 1.5em;
     word-spacing: 4px;
     color: #82af21; 
@@ -785,7 +777,6 @@ button:hover {
 
 .gallerypage-text p {
     font-size: 14px;
-
 }
 
 .gallerypage-image:hover .gallerypage-text {
@@ -807,13 +798,10 @@ button:hover {
 .contactUs {
     position: relative;
     width: 100%;
-    padding: 40px 100px;
-    background: url('../images/Hero11.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    padding: 0 100px;
+    background: url('../images/Hero11.jpg') no-repeat center;
     height: 1200px;
 }
-
 
 .contactUs .title {
     display: flex;
@@ -823,8 +811,9 @@ button:hover {
 }
 
 .contactUs .title h2 {
-    margin-top: 150px;
-    color: #82af21;
+    font-size: 1.5em;
+    margin-top: 200px;
+    color: #2f4858;
     background-color: rgb(255, 255, 255,0.8);
     width: 100%;
     margin-bottom: 100px;
@@ -844,7 +833,6 @@ button:hover {
 }
 
 .contact {
-    
     padding: 40px;
     background: rgb(255, 255, 255,0.8);
     box-shadow: 0 5px 35px rgba(0,0,0,0.15);
@@ -916,7 +904,7 @@ button:hover {
     resize: none;
     min-height: 220px;
     margin-bottom: 10px;
-    font-family: Lato;
+    font-family: 'lato',sans-serif;
 }
 
 .inputbox input[type="submit"]{
@@ -937,8 +925,11 @@ button:hover {
 }
 
 .info h3 {
+    text-align: center;
     color: #2f4858;
 }
+
+
 
 .info .infobox div {
     display: flex;
@@ -1383,7 +1374,6 @@ button:hover {
 
     .footer {
         padding: 50px 0;
-
     }
 
 
