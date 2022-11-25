@@ -749,6 +749,7 @@ button:hover {
     padding: 50px 0;
     background: #fff;
     margin-top: 150px;
+    
 }
 
 .gallerypage-box {
@@ -757,6 +758,7 @@ button:hover {
     flex-wrap: wrap;
     padding: 2%;
     margin: auto;
+    justify-content: center;
     
     
 }
@@ -1132,7 +1134,7 @@ hr {
     /* home page - gallery section */
 
     .gallery-box {
-        justify-items: center;
+        justify-content: center;
     }
 
     .gallery-image {
@@ -1186,6 +1188,16 @@ hr {
         width: 100%;
         padding: 4%;
         background-color: rgb(246, 246, 246,0.9);
+    }
+
+    /* gallery page */
+
+    .gallerypage-box {
+        width: 90%;     
+    }
+    
+    .gallerypage-image {
+        flex-basis: 49%;
     }
 
     /* contact us page */
@@ -1341,7 +1353,7 @@ hr {
 
     .gallery-image {
         flex-basis: 49%;
-        text-align: center;
+        border-radius: 7px;
     }
 
     .overlay {
