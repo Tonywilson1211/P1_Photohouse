@@ -31,22 +31,16 @@ nav {
 
 nav span {
     color: #fff;
-    text-decoration: none;
     font-family: 'Anton', sans-serif;
-    text-align: left;
 }
 
 .contact-button {
     background-color: #82af21;
     color: #fff;    
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 30px 30px;
+    padding: 30px;
     border-radius: 50px;
     letter-spacing: 2px;
-    text-decoration: none;
-    font-size: 1.5em;
-    font-family: 'Lato', sans-serif;
+    font-size: 1.7em;
 }
 
 #contact-us {
@@ -59,20 +53,17 @@ nav span {
 
 nav ul {
     justify-content: center;
-    padding-left: 5% ;
+    padding-left: 5%;
     padding-right: 5%;
-    
 }
 
 nav ul li {
-    list-style-type: none;
-    display: inline-block;   
+    display: inline-block;  
 }
 
 nav ul li a{
     position: relative;
     color: #fff;
-    text-decoration: none;
     font-size: 1.7em;
     line-height: 80px;
     padding: 40px;
@@ -125,38 +116,29 @@ nav ul li a:hover {
 .hero-image {
     height: 100vh;
     width: 100%;
-    background-image: url('../images/Hero33.jpg');
+    background: url('../images/Hero33.jpg') no-repeat center;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #cover-text {
-    width: 50%;
-    height: 100px;
-    position: absolute;
-}
-
-#cover-text2 {
     background-color: rgb(255, 255, 255, 0.9);
-    padding: 15px;
+    padding: 30px;
+    font-size: 2rem;
     text-align: center;
-    color:#2f4858;
-    font-family: 'lato', sans-serif;   
+    color:#2f4858; 
 }
 
-#cover-text2 h2 {
+#cover-text h2 {
     font-family: 'lato', sans-serif;
     font-size: 2rem;
     letter-spacing: 3px;
 }
 
-#cover-text2 h3 {
-    font-family: Dancing Script, sans-serif;
-    font-size: 2rem;
+#cover-text h3 {
+    font-family: 'dancing script', sans-serif;
 }
 
 /* main page - about section */
@@ -164,22 +146,22 @@ nav ul li a:hover {
 .about {
     width: 100%;
     height: 100vh;
-    padding-top: 35vh ;
+    padding-top: 35vh;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    
+    text-align: justify;
 }
 
 .flexbox-about {
     width: 33%;
     margin: 5px;
-    text-align: justify;
 }
 
 .center-about {
     order: 1;
     width: 20%;
+    text-align: center;
 }
 
 .right-about {
@@ -187,17 +169,13 @@ nav ul li a:hover {
 }
 
 .center-about h2 {
-    text-align: center;
     color: #2f4858;
     font-size: 3.5em;
-    letter-spacing: 2px;
-    padding: 10px;
 }
 
-.center-about h3,.left-about h3,.right-about h3 {
+.center-about h3, .left-about h3, .right-about h3 {
     font-family: 'dancing script', sans-serif;
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 2.5em;
     text-align: center;
     color: #82af21;
     padding: 10px
@@ -206,16 +184,7 @@ nav ul li a:hover {
 .about p {
     font-size: 1.5em;
     color:#2f4858;
-    font-weight: 400;
     padding: 15px;
-}
-
-.left-about {
-    text-align: justify; 
-}
-
-.right-about p {
-    text-align: justify;
 }
 
 /* home page - services section */
@@ -229,70 +198,57 @@ nav ul li a:hover {
 
 .services-title h2 {
     color: #fff;
-    font-size: 3.0em;
-    margin-top: 150px;
+    font-size: 2.5em;
     text-align: center;
     letter-spacing: 4px;
-}
-
-.services-title h3 {
-    color: #fff;
 }
 
 .services-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
 }
 
 .services-card {
     height: 600px;
-    width: 400px;
+    width: 450px;
     padding: 20px 35px;
-    background: #fff;
     border-radius: 20px;
     margin: 15px;
-    position: relative;
-    overflow: hidden;
     text-align: center;
+    background: #fff;
+    position: relative;
 }
 
 .services-card i {
     font-size: 50px;
-    display: block;
     text-align: center;
-    margin: 25px 0;
+    margin: 50px 0;
     color: #82af21;
-    padding-bottom: 40px;
 }
 
 .services-card i:hover {
     color: #2f4858;
 }
 
-h5 {
+.services-card h5 {
     color: #82af21;
-    font-size: 40px;
-    margin-bottom: 25px;
+    font-size: 2.5em;
+    margin-bottom: 50px;
     font-family: 'dancing script', sans-serif;
 }
 
 .services-text p {
     padding-bottom: 40px;
     color: #2f4858;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
+    font-size: 1em;
 }
 
 .services-card .button {
     background-color: #82af21;
     color: #fff;    
-    border: 2px solid transparent;
-    padding: 10px;
+    padding: 10px 30px;
     border-radius: 50px;
-    font-family: 'lato', sans-serif;
 }
 
 .services-card .button:hover {
