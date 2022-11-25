@@ -369,6 +369,25 @@ h5 {
     position: relative; 
 }
 
+.gallery-image h3, a {
+    color: #fff;
+    font-weight: normal;
+}
+
+.gallery-image a {
+    cursor: pointer;
+    background-color: rgb(130, 175, 33,0.9);
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.gallery-image a:hover {
+    background-color: #fff;
+    color: #82af21;
+    border: 2px solid #82af21;
+}
+
+
 .gallery-image img {
     width: 100%;
     border-radius: 7px;
@@ -383,7 +402,6 @@ h5 {
     position: absolute;
     top: 0;
     border-radius: 7px;
-    cursor: pointer;
     background: linear-gradient(rgba(0,0,0,0.5),#2f4858);
     opacity: 0;
     transition: 1s;
@@ -430,7 +448,7 @@ h5 {
     transition: 1s;
 }
 
-hr {
+.hr0 {
     background: #fff;
     height: 2px;
     border: 0;
@@ -476,12 +494,6 @@ hr {
     margin: 10px;
 }
 
-.clients-title hr {
-    background: #82af21;
-    height: 1px;    
-    border: 0;
-    width: 100%;
-    }
 
 /* footer section */
 
@@ -699,6 +711,7 @@ hr {
 .hr1 {
     background: #82af21;
     height: 1px;    
+    border: 0;
     width: 100%;
 }
 
@@ -819,14 +832,6 @@ button:hover {
     transition: 1s;
 }
 
-hr {
-    background: #fff;
-    height: 2px;
-    border: 0;
-    margin: 15px auto;
-    width: 60%;
-}
-
 .gallerypage-text p {
     font-size: 14px;
 
@@ -838,9 +843,8 @@ hr {
 }
 
 .gallerypage-title p {
-    text-align: left;
-    margin-left: 5%;
-    font-size: 40px;
+    text-align: center;
+    font-size: 2.5em;
     font-family: Lato;
     color: #82af21;
     scroll-margin: 150px;
@@ -1234,6 +1238,15 @@ hr {
     .contactUs {
         height: 1800px;
     }
+
+    /* home page - client */
+
+    .client-logos {
+        width: 60px;
+        height: 50px;
+        border-radius: 7px;
+        margin: 10px;
+    }
 }
 
 
@@ -1350,6 +1363,7 @@ hr {
     .gallery-box {
         justify-items: center;
     }
+    
 
     .gallery-image {
         flex-basis: 49%;
@@ -1371,6 +1385,15 @@ hr {
         width: 100%;
         height: 60%;
         opacity: 1;
+        font-size: 0.5em;
+    }
+
+    .gallery-text h3 {
+        padding-bottom: 10px;
+    }
+
+    .hr0 {
+        display: none;
     }
 
     .gallerypage-image {
@@ -1403,6 +1426,13 @@ hr {
         border-radius: 7px;
         padding: 2px;
         
+    }
+
+    /* footer */ 
+
+    .footer {
+        padding: 50px 0;
+
     }
 
 
