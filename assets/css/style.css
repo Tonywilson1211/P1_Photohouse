@@ -229,7 +229,7 @@ nav ul li a:hover {
 
 .services-title h2 {
     color: #fff;
-    font-size: 3.5em;
+    font-size: 3.0em;
     margin-top: 150px;
     text-align: center;
     letter-spacing: 4px;
@@ -349,6 +349,7 @@ h5 {
     width: 100%;
     padding: 70px 0;
     background: #fff;
+    height: 1000px;
 }
 
 .gallery-box {
@@ -448,6 +449,10 @@ hr {
 }
 
 /* home page - client section */
+
+.clients {
+    margin-top: 50px;
+}
 
 .clients-title h2 {
     text-align: center;
@@ -836,6 +841,7 @@ hr {
     font-size: 40px;
     font-family: Lato;
     color: #82af21;
+    scroll-margin: 150px;
 }
 
 
@@ -848,7 +854,7 @@ hr {
     background: url('../images/Hero11.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 1200px;
 }
 
 
@@ -1178,7 +1184,43 @@ hr {
         padding: 4%;
         background-color: rgb(246, 246, 246,0.9);
     }
+
+    /* contact us page */
+
+    .contactus-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form"
+        "info"
+        "map";
+    }
+    .contactUs {
+        padding: 0;
+    }
+    
+    .map {
+        min-height: 300px;
+    }
+    
+    .formbox .row50 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .inputbox {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .contactUs {
+        height: 1800px;
+    }
 }
+
 
 @media screen and (max-width: 800px) {
     
@@ -1203,6 +1245,11 @@ hr {
         text-align: center;   
         transition: all .5s;    
     }
+
+    #check:checked ~ ul  {
+        left: 0;
+    }
+
     #check:checked ~ label #menu-open {
         display: none;
     }
