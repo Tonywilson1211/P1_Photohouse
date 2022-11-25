@@ -203,6 +203,13 @@ nav ul li a:hover {
     letter-spacing: 4px;
 }
 
+.services-title h3 {
+    font-family: Lato;
+    font-size: 1em;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
 .services-box {
     display: flex;
     justify-content: center;
@@ -268,35 +275,31 @@ nav ul li a:hover {
 .contact-us-container {
     width: 100%;
     height: 290px;
-    background-image: url('../images/Hero22.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background: url('../images/Hero22.jpg') no-repeat center fixed;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
 .contact-us-button {
-    display: block;
-    width: 50%;
-    height: 150px;
-    background-color: rgba(255, 255, 255,0.9);
-    text-align: center;
-    justify-content: center;
+    width: 30%;
+    height: 75px;
     display: flex;
     align-items: center;
-    font-family: Dancing Script;
-    font-size: 3.5em;
-    color: #82af21;
-    border: 2px solid #2f4858;
+    justify-content: center;
+    font-family: 'dancing script', sans-serif;
+    font-size: 3.0em;
+    background-color: rgb(47, 72, 88,0.9);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
 }
 
 .contact-us-button:hover {
-    background-color: rgb(47, 72, 88,0.9);
-    color: #fff;
-    border: 2px solid #82af21;
+    color: #2f4858;
+    background-color: rgba(255, 255, 255,0.9);
+    border: 2px solid #2f4858;
 }
 
 /* home page - gallery section */
@@ -343,13 +346,9 @@ nav ul li a:hover {
     border: 2px solid #82af21;
 }
 
-
 .gallery-image img {
     width: 100%;
-    border-radius: 7px;
-    cursor: pointer;
     padding: 10px;
-    
 }
 
 .overlay {
@@ -357,7 +356,6 @@ nav ul li a:hover {
     height: 100%;
     position: absolute;
     top: 0;
-    border-radius: 7px;
     background: linear-gradient(rgba(0,0,0,0.5),#2f4858);
     opacity: 0;
     transition: 1s;
@@ -369,24 +367,22 @@ nav ul li a:hover {
 
 .gallery-title {
     text-align: center;
-}
-
-.gallery-title h1 {
-    font-family: Anton;
-    font-size: 70px;
-    word-spacing: 4px;
     color: #2f4858; 
 }
 
 .gallery-title h2 {
+    font-size: 5em;
+    word-spacing: 4px;
+}
+
+.gallery-title h3 {
     font-family: Lato;
-    font-size: 50px;
-    color: #2f4858; 
+    font-size: 2em;
     padding-bottom: 20px;
     
 }
 
-.gallery-title h3 {
+.gallery-title h4 {
     font-family: Dancing Script;
     font-size: 36px;
     word-spacing: 4px;
@@ -436,18 +432,17 @@ nav ul li a:hover {
 }
 
 .client-logos-container {
-    flex-basis: 15%;
     text-align: center;
     border-radius: 7px;
-    margin-bottom: 20px;
+    margin: 20px;
     color: #fff;
 }
 
 .client-logos {
-    width: 120px;
-    height: 100px;
+    width: 80px;
+    height: 60px;
     border-radius: 7px;
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 
