@@ -489,21 +489,63 @@ hr {
     background-color: #2f4858;
     box-sizing: border-box;
     width: 100%;
-    text-align: left;
     font-size: 16px;
     padding: 50px 50px 60px 50px;
     margin-top: 80px;
 }
 
-.footer .footer-left,.footer .footer-center,.footer .footer-right {
+.footer .footer-left, .footer-center, .footer-right {
     display: inline-block;
     vertical-align: top;
 }
 
 /* Footer left */
 
-.footer .footer-left {
-    width: 45%;
+.footer-left {
+    width: 33%;
+    text-align: left;
+}
+
+.footer-left i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-left i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-left p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-left p span {
+    display: block;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-left p a {
+    color: #82af21;
+    text-decoration: none;
+}
+/* Footer center */
+
+.footer-center {
+    width: 33%;
+    text-align: center;
 }
 
 .footer h3 {
@@ -522,92 +564,50 @@ hr {
 
 /* Footer links */
 
-.footer .footer-links {
+.footer-links {
     color: #ffffff;
     margin: 20px 0 12px;
 }
 
-.footer .footer-links a {
+.footer-links a {
     display: inline-block;
     line-height: 1.8;
     text-decoration: none;
     color: #fff;
 }
 
-.footer .footer-company-name {
+.footer-company-name {
     color: #8f9296;
     font-size: 14px;
     margin: 0;
 }
 
-/* Footer Center */
-
-.footer .footer-center {
-    width: 40%;
-}
-
-.footer .footer-center i {
-    background-color: #33383b;
-    color: #ffffff;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
-}
-
-.footer .footer-center i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
-}
-
-.footer .footer-center p {
-    display: inline-block;
-    color: #ffffff;
-    vertical-align: middle;
-    margin: 0;
-}
-
-.footer .footer-center p span {
-    display: block;
-    font-size: 14px;
-    line-height: 2;
-}
-
-.footer .footer-center p a {
-    color: #82af21;
-    text-decoration: none;
-    ;
-}
-
 /* Footer Right */
 
-.footer .footer-right {
-    width: 10%;
+.footer-right {
+    width: 33%;
+    text-align: right;
 }
 
-.footer .footer-company-about {
+.footer-company-about {
     line-height: 20px;
     color: #92999f;
     font-size: 13px;
     margin: 0;
 }
 
-.footer .footer-company-about span {
+.footer-company-about span {
     display: block;
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-.footer .footer-icons {
+.footer-icons {
     margin-top: 25px;
 }
 
-.footer .footer-icons a {
+.footer-icons a {
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -622,7 +622,7 @@ hr {
     margin-bottom: 5px;
 }
 
-.footer .footer-icons a:hover {
+.footer-icons a:hover {
     background-color: #fff;
     color: #82af21;
 }
@@ -744,7 +744,7 @@ button:hover {
 
 
 
-#gallerypage {
+.gallerypage {
     width: 100%;
     padding: 50px 0;
     background: #fff;
@@ -1148,15 +1148,18 @@ hr {
     .footer {
         position: static;
     }
-     .footer,.footer .footer-left,.footer .footer-center,.footer .footer-right {
-        display: block;
+     .footer, .footer-left, .footer-center, .footer-right {
+        display: flex;
         width: 100%;
+        flex-direction: column;
         margin-bottom: 40px;
         text-align: center;
     }
-    .footer .footer-center i {
-        margin-left: 0;
+
+    .footer-center {
+        order: -1;
     }
+
 
         /* services page */
 
