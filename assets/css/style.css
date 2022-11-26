@@ -1099,6 +1099,10 @@ button:hover {
         order: -1;
     }
 
+    .footer-left {
+        padding-right: 70px ;
+    }
+
 
         /* services page */
 
@@ -1180,6 +1184,8 @@ button:hover {
         border-radius: 7px;
         margin: 10px;
     }
+
+
 }
 
 
@@ -1384,6 +1390,4 @@ button:hover {
     .footer {
         padding: 50px 0;
     }
-
-
 }
