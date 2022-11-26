@@ -842,7 +842,7 @@ button:hover {
     "form info"
     "form map";
     grid-gap: 20px;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 .contact h3 {
@@ -850,6 +850,7 @@ button:hover {
     font-weight: 500;
     font-size: 1.4em;
     margin-bottom: 10px;
+
 }
 
 /* form */
@@ -918,14 +919,21 @@ button:hover {
 
 .info {
     background: rgb(255, 255, 255,0.8);
+    
 }
 
 .info h3 {
     text-align: center;
     color: #2f4858;
+    
 }
 
-
+.infobox-contactdetails {
+    place-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
 
 .info .infobox div {
     display: flex;
@@ -944,35 +952,41 @@ button:hover {
     font-size: 1.3em;
     border-radius: 50%;
     margin-right: 15px;
+    
+    
 
 }
 
 .info .infobox div p {
     color: #2f4858;
     font-size: 1.1em;
+    
 }
 
 .info .infobox div a {
     color: #2f4858;
     text-decoration: none;
     font-size: 1.1em;
+    
 }
 
 .sci {
     margin-top: 40px;
     display: flex;
+    place-content: center;
+    
 
 }
 
 .sci li {
     list-style-type: none;
-    margin-right: 15px;
-
+    margin-right: 15px; 
 }
 
 .sci li a {
     color: #2f4858;
     font-size: 2em;
+
 
 }
 
