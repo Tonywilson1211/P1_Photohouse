@@ -990,7 +990,7 @@ button:hover {
 
 /* Media Query */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
     
     #logo {
         font-size: 2.0em;
@@ -1338,6 +1338,14 @@ button:hover {
     .hr0 {
         display: none;
     }
+
+    /* home page - clients section */
+
+    .client-logos {
+        margin: 1px;
+    }
+
+    /* gallery page */ 
 
     .gallerypage-image {
         flex-basis: 90%;
