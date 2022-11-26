@@ -708,7 +708,6 @@ button:hover {
     width: 100%;
     padding: 50px 0;
     background: #fff;
-    margin-top: 150px;
 }
 
 .gallerypage-box {
@@ -746,15 +745,7 @@ button:hover {
     font-size: 4em;
     word-spacing: 4px;
     color: #2f4858; 
-}
-
-.gallerypage-title h2 {
-    font-family: 'lato',sans-serif;
-    font-weight: normal;
-    font-size: 2em;
-    color: #2f4858; 
-    padding-bottom: 20px;
-    
+    margin-top: 150px;
 }
 
 .gallerypage-title h3 {
@@ -762,7 +753,7 @@ button:hover {
     font-size: 1.5em;
     word-spacing: 4px;
     color: #82af21; 
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .gallerypage-text {
@@ -1198,7 +1189,7 @@ button:hover {
 
     #logo {
         font-size: 2em;
-        padding-left: 10px;
+        padding-left: 30px;
     }
 
     #menu-open {
@@ -1305,14 +1296,21 @@ button:hover {
     
     /* home page - gallery section */
 
+    #gallery {
+        height: 1300px;
+    }
+    
     .gallery-box {
         justify-items: center;
     }
     
-
     .gallery-image {
-        flex-basis: 49%;
+        flex-basis: 90%;
         border-radius: 7px;
+        max-height: 320px;
+        max-width: 320px;
+        display: block;
+        margin: auto;
     }
 
     .overlay {
