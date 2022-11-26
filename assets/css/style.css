@@ -116,7 +116,7 @@ nav ul li a:hover {
 .hero-image {
     height: 100vh;
     width: 100%;
-    background: url('../images/Hero33.jpg') no-repeat center;
+    background: url('../images/Hero33.webp') no-repeat center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -280,7 +280,7 @@ nav ul li a:hover {
 .contact-us-container {
     width: 100%;
     height: 290px;
-    background: url('../images/Hero22.jpg') no-repeat center fixed;
+    background: url('../images/Hero22.webp') no-repeat center fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -618,7 +618,7 @@ nav ul li a:hover {
 }
 
 .photography {
-    background: url('../images/Hero55.jpg') no-repeat left;
+    background: url('../images/Hero55.webp') no-repeat left;
     background-size: 49%;
     background-color: #fff;
     overflow: hidden;
@@ -633,7 +633,7 @@ nav ul li a:hover {
 }
 
 .floorplan {
-    background: url('../images/Floorplan.jpg') no-repeat right;
+    background: url('../images/Floorplan.webp') no-repeat right;
     background-size: 49%;
     background-color: #fff;
     overflow: hidden;
@@ -650,7 +650,7 @@ nav ul li a:hover {
 }
 
 .epc {
-    background: url('../images/epc1.jpg') no-repeat left;
+    background: url('../images/epc1.webp') no-repeat left;
     background-size: 49%;
     background-color: #fff;
     overflow: hidden;
@@ -795,7 +795,7 @@ button:hover {
     position: relative;
     width: 100%;
     padding: 0 100px;
-    background: url('../images/Hero11.jpg') no-repeat center;
+    background: url('../images/Hero11.webp') no-repeat center;
     height: 1200px;
 }
 
@@ -1326,7 +1326,7 @@ button:hover {
     /* home page - contact us */
     
     .contact-us-container {
-        background: url('../images/Twilight1.jpg') no-repeat fixed;
+        background: url('../images/Twilight1.webp') no-repeat fixed;
         background-position: left;
     }
 
