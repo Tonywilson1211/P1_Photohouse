@@ -1263,19 +1263,16 @@ button:hover {
     }
 
     #cover-text {
-        width: 100%;
+        width: 90%;
         height: 50px;
-    }
-
-    #cover-text2 {
         padding: 5px;
     }
 
     /* home page - services section */
 
     .services-card {
-        height: 500px;
-        width: 99%;
+        height: 460px;
+        width: 90%;
     }
 
     .services-title h2 {
@@ -1296,8 +1293,14 @@ button:hover {
 
     /* home page - contact us */
     
+    .contact-us-container {
+        background: url('../images/Twilight1.jpg') no-repeat fixed;
+        background-position: left;
+    }
+
     .contact-us-button {
         font-size: 2em;
+        width: 90%;
     }
     
     /* home page - gallery section */
