@@ -438,13 +438,10 @@ nav ul li a:hover {
 .client-logos-container {
     text-align: center;
     border-radius: 7px;
-    margin: 20px;
     color: #fff;
 }
 
 .client-logos {
-    width: 80px;
-    height: 52px;
     border-radius: 7px;
     margin: 10px 20px;
 }
