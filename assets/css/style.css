@@ -473,9 +473,9 @@ nav ul li a:hover {
 }
 
 .footer-left i {
-    background-color: #106778;
+    background-color: #82af21;
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
     width: 38px;
     height: 38px;
     border-radius: 50%;
@@ -504,7 +504,7 @@ nav ul li a:hover {
 }
 
 .footer-left p a {
-    color: #82af21;
+    color: #fff;
     text-decoration: none;
 }
 
