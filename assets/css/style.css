@@ -210,7 +210,7 @@ nav ul li a:hover {
     font-family: Lato;
     font-size: 1em;
     padding-bottom: 20px;
-    color: #fff;
+    color: #2f4858;
 }
 
 .services-box {
@@ -226,7 +226,7 @@ nav ul li a:hover {
     border-radius: 20px;
     margin: 15px;
     text-align: center;
-    background: #2f4858;
+    background: #fff;
     position: relative;
 }
 
@@ -234,7 +234,7 @@ nav ul li a:hover {
     font-size: 50px;
     text-align: center;
     margin: 50px 0;
-    color: #fff;
+    color: #2f4858;
 }
 
 .services-card i:hover {
@@ -242,7 +242,7 @@ nav ul li a:hover {
 }
 
 .services-card h5 {
-    color: #82af21;
+    color: #2f4858;
     font-size: 2.5em;
     margin-bottom: 50px;
     font-family: 'dancing script', sans-serif;
@@ -250,13 +250,14 @@ nav ul li a:hover {
 
 .services-text p {
     padding-bottom: 40px;
-    color: #fff;
+    color: #2f4858;
     font-size: 1em;
+    font-weight: 400;
 }
 
 .services-card .button {
-    background-color: #fff;
-    color: #2f4858;    
+    background-color: #2f4858;
+    color: #fff;    
     padding: 10px 30px;
     border-radius: 50px;
 }
