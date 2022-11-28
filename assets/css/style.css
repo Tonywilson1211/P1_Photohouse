@@ -423,31 +423,6 @@ nav ul li a:hover {
     opacity: 1;
 }
 
-/* home page - client section */
-
-.clients {
-    margin-top: 50px;
-}
-
-.clients-title h2 {
-    text-align: center;
-    font-family: 'dancing script', sans-serif;
-    color: #2f4858;
-    font-size: 2.5em;
-}
-
-.client-logos-container {
-    text-align: center;
-    border-radius: 7px;
-    color: #fff;
-}
-
-.client-logos {
-    border-radius: 7px;
-    margin: 10px 20px;
-}
-
-
 /* footer section */
 
 .footer {
@@ -598,82 +573,61 @@ nav ul li a:hover {
 /* Services Page */
 
 .services-section {
-    padding: 2%;   
-    margin-top: 150px;
-} 
+    width: 100%;
+    display: grid;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
 
 .services-title {
-    font-size: 2em;
-    color: #82af21;
-    text-align: center;
-}
-
-.photography {
-    background: url('../images/Hero55.webp') no-repeat left;
-    background-size: 49%;
-    background-color: #fff;
-    overflow: hidden;
-    padding: 50px 0;
-}
-
-.photography-section {
-    width: 55%;
-    float: right;
-    background-color: rgb(246, 246, 246,0.5);
-    padding: 8%;
-}
-
-.floorplan {
-    background: url('../images/Floorplan.webp') no-repeat right;
-    background-size: 49%;
-    background-color: #fff;
-    overflow: hidden;
-    padding: 50px 0;
-    
-}
-
-.floorplan-section {
-    width: 55%;
-    float: left;
-    background-color: rgb(246, 246, 246,0.5);
-    padding: 8%;
-    
-}
-
-.epc {
-    background: url('../images/epc1.webp') no-repeat left;
-    background-size: 49%;
-    background-color: #fff;
-    overflow: hidden;
-    padding: 50px 0;
-}
-
-.epc-section {
-    width: 55%;
-    float: right;
-    background-color: rgb(246, 246, 246,0.5);
-    padding: 8%;
-}
-
-.hr1 {
-    background: #82af21;
-    height: 1px;    
-    border: 0;
-    width: 100%;
-}
-
-.services-section h2 {
-    text-align: center;
-    font-family: 'dancing script',sans-serif;
-    font-size: 50px;
-    color: #82af21;
-    padding-bottom: 40px;
-}
-
-.services-section .text {
-    text-align: justify;
-    font-size: 1em;
+    font-size: 2.5em;
     color: #2f4858;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.row {
+    width: 100%;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+    font-family: 'poppins';
+}
+
+.row .left {
+    overflow: hidden;
+}
+
+.row .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row .right .content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.right .content {
+    justify-content: center;
+}
+
+.content h2 {
+    font-family: 'dancing script',sans-serif;
+    color: #2f4858;
+    font-size: 3em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row .right .content p {
+    font-size: 1.2em;
+    line-height: 26px;
+    padding-bottom: 50px;
+    text-align: justify;
 }
 
 button {
@@ -681,21 +635,24 @@ button {
     font-family: 'lato',sans-serif;
     background-color: #82af21;
     padding: 10px;
-    font-size: 28px;
+    font-size: 1.5em;
     border-radius: 15px;
     font-weight: bolder;
     cursor: pointer;
+    
 }
 
 .gallery-button {
     padding-top: 55px;
     text-align: center;
+    text-decoration: none;
 }
 
 button:hover {
     background-color: rgb(47, 72, 88);
     color: #fff;
 }
+
 
 
 /* Gallery Page */
@@ -1136,26 +1093,6 @@ button:hover {
         padding-right: 70px ;
     }
 
-
-        /* services page */
-
-    .services-title {
-        font-size: 40px;
-    }
-
-    .photography, .epc, .floorplan{
-        background-size: 100%;
-        margin: 10px 0;
-    }
-
-    
-    .epc-section, .floorplan-section, .photography-section {
-        width: 100%;
-        padding: 4%;
-        background-color: rgb(246, 246, 246,0.9);
-        margin: 100px 0;
-    }
-
     /* gallery page */
 
     .gallerypage-box {
@@ -1201,16 +1138,30 @@ button:hover {
         height: 1800px;
     }
 
-    /* home page - client */
+    /* services page */
 
-    .client-logos {
-        width: 60px;
-        height: 50px;
-        border-radius: 7px;
-        margin: 10px;
+    .row .right .content {
+        padding: 0;
     }
 
+    .row .left {
+        overflow: visible;
+    }
+    
+    .row .right .content {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 750px;
+    }
+    
+    .content h2 {
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
 
+    .row .right .content p {
+        padding-bottom: 0;
+    }
 }
 
 
@@ -1352,10 +1303,31 @@ button:hover {
         display: none;
     }
 
-    /* home page - clients section */
+    /* services page */
 
-    .client-logos {
-        margin: 1px;
+    .row {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .content h2 {
+        font-size: 2em;
+    }
+    
+    .row .right .content p {
+        font-size: 1em;
+        line-height: 18px;
+        padding-bottom: 0;
+    }
+    
+    button {
+        padding: 8px;
+        font-size: 1em;
+        border-radius: 15px;
+    }
+
+    .row .right .content {
+        height: 500px;
     }
 
     /* gallery page */ 
