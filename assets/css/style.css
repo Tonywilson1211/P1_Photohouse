@@ -107,6 +107,16 @@ nav ul li a:hover {
 
 .active {
     background-color: rgb(130, 175, 33, 0.4);
+    text-decoration: underline;
+}
+
+.contact-active {
+    background-color: rgb(130, 175, 33,0.5);
+    padding: 30px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    font-size: 1.7em;
+    text-decoration: underline;
 }
 
 /* navbar menu toggle for tablet and mobile devices */
@@ -458,154 +468,9 @@ nav ul li a:hover {
 
 /* END OF GALLERY SECTION - HOME PAGE */
 
-/*FOOTER SECTION */
+/* SERVICES PAGE */
 
-.footer {
-    background-color: #2f4858;
-    box-sizing: border-box;
-    width: 100%;
-    font-size: 16px;
-    padding: 50px 50px 60px 50px;
-    margin-top: 80px;
-}
-
-.footer .footer-left, .footer-center, .footer-right {
-    display: inline-block;
-    vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-left {
-    width: 33%;
-    text-align: left;
-}
-
-.footer-left i {
-    background-color: #82af21;
-    color: #fff;
-    font-size: 22px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
-}
-
-.footer-left i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
-}
-
-.footer-left p {
-    display: inline-block;
-    color: #fff;
-    vertical-align: middle;
-    margin: 0;
-}
-
-.footer-left p span {
-    display: block;
-    font-size: 14px;
-    line-height: 2;
-}
-
-.footer-left p a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Footer center */
-
-.footer-center {
-    width: 33%;
-    text-align: center;
-}
-
-.footer h3 {
-    color: #fff;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 3px;
-    font-size: 2em;
-}
-
-
-.footer h3 span {
-    color: #82af21;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 4px;
-}
-
-/* Footer links */
-
-.footer-links {
-    color: #fff;
-    margin: 20px 0 12px;
-}
-
-.footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: #fff;
-}
-
-.footer-company-name {
-    color: rgb(221, 219, 219);
-    font-size: 14px;
-    margin: 0;
-}
-
-/* Footer Right */
-
-.footer-right {
-    width: 33%;
-    text-align: right;
-}
-
-.footer-company-about span {
-    display: block;
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.footer-icons {
-    margin-top: 25px;
-}
-
-.footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color: #82af21;
-    border-radius: 2px;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
-.footer-icons a:hover {
-    background-color: #fff;
-    color: #82af21;
-}
-
-.footer-links a:hover {
-    color: #82af21;
-}
-
-.footer-company-about p {
-    color: #fff;
-    font-size: 14px;
-}
-
-/* Services Page */
+/* grid layout config */
 
 .services-section {
     width: 100%;
@@ -615,14 +480,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.services-title {
-    font-size: 2.5em;
-    color: #2f4858;
-    text-align: center;
-    padding-top: 150px;
-}
-
-.row {
+.services-row {
     width: 100%;
     padding: 50px 0;
     display: grid;
@@ -631,26 +489,30 @@ nav ul li a:hover {
     font-family: 'poppins';
 }
 
-.row .left {
+.services-row .services-left {
     overflow: hidden;
 }
 
-.row .left img {
+.services-row .services-left img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.row .right .content {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.right .content {
+.servcies-right .servcies-content {
     justify-content: center;
 }
 
-.content h2 {
+/* text config */
+
+.services-title {
+    font-size: 2.5em;
+    color: #2f4858;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.services-content h2 {
     font-family: 'dancing script',sans-serif;
     color: #2f4858;
     font-size: 3em;
@@ -658,12 +520,14 @@ nav ul li a:hover {
     padding-bottom: 50px;
 }
 
-.row .right .content p {
+.services-row .servcies-right .services-content p {
     font-size: 1.2em;
     line-height: 26px;
     padding-bottom: 50px;
     text-align: justify;
 }
+
+/* navigation button config */
 
 button {
     text-align: center;
@@ -688,9 +552,11 @@ button:hover {
     color: #fff;
 }
 
+/* END OF SERVICES PAGE */
 
+/*GALLERY PAGE */
 
-/* Gallery Page */
+/* flexbox config */
 
 .gallerypage {
     width: 100%;
@@ -713,6 +579,7 @@ button:hover {
     border-radius: 7px;
     margin-bottom: 20px;
     color: #fff;
+    transition: 1s;
 }
 
 .gallerypage-image img {
@@ -721,9 +588,7 @@ button:hover {
     padding: 2px;
 }
 
-.gallerypage-image:hover {
-    transform: scale(1.1);
-}
+/* headings text config */
 
 .gallerypage-title {
     text-align: center;
@@ -731,55 +596,51 @@ button:hover {
 
 .gallerypage-title h1 {
     font-size: 4em;
-    word-spacing: 4px;
+    letter-spacing: 4px;
     color: #2f4858; 
     margin-top: 150px;
 }
 
-.gallerypage-title h3 {
+.gallerypage-title h2 {
+    text-align: center;
     font-family: 'dancing script',sans-serif;
-    font-size: 1.5em;
-    word-spacing: 4px;
-    color: #82af21; 
-    padding-bottom: 80px;
-}
-
-.gallerypage-text {
-    width: 80%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    opacity: 0;
-    transform: translateX(-50%);
-    transition: 1s;
-}
-
-.gallerypage-text p {
-    font-size: 14px;
-}
-
-.gallerypage-image:hover .gallerypage-text {
-    bottom: 40%;
-    opacity: 1;
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: #2f4858; 
 }
 
 .gallerypage-title p {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    font-size: 2em;
+    font-family: 'lato',sans-serif;
+    color: #fff; 
+    background-color: rgb(47, 72, 88,0.6);
     font-size: 2.5em;
-    font-family: Lato;
-    color: #82af21;
+    margin: 15px 0;
     scroll-margin: 150px;
 }
 
+/* zoom animation */
 
-/* Contact Us Page */
+.gallerypage-image:hover {
+    transform: scale(1.1);
+}
+
+/* END OF GALLERY PAGE */
+
+/* CONTACT US PAGE */
 
 .contactUs {
-    position: relative;
-    width: 100%;
-    padding: 0 100px;
     background: url('../images/Hero11.webp') no-repeat center;
     height: 1200px;
+    width: 100%;
+    padding: 0 100px;
+    position: relative;
 }
 
 .contactUs .title {
@@ -987,7 +848,147 @@ button:hover {
     height: 100%;
 }
 
+/*FOOTER SECTION */
 
+/* flexbox config */
+
+.footer {
+    background-color: #2f4858;
+    width: 100%;
+    font-size: 16px;
+    padding: 50px 50px 60px 50px;
+    
+    display: flex;
+}
+
+.footer-left, .footer-center, .footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+/* footer left */
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-left i {
+    background-color: #82af21;
+    color: #fff;
+    font-size: 22px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-left p {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+
+/* footer center */
+
+.footer-center {
+    text-align: center;
+}
+
+.footer h3 {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    font-size: 2em;
+}
+
+.footer h3 span {
+    color: #82af21;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 4px;
+}
+
+/* footer center navigation links */
+
+.footer-links {
+    color: #fff;
+    margin: 20px 0 12px;
+}
+
+.footer-links a {
+    display: inline-block;
+    line-height: 3.5;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* footer center copyright */
+
+.footer-copyright {
+    color: rgb(221, 219, 219);
+    font-size: 14px;
+    margin: 0;
+}
+
+/* footer right */
+
+/* opening hours text config */
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-hours h4 {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.footer-hours p {
+    line-height: 2;
+}
+
+/* social media navigation links config */
+
+.footer-icons {
+    margin-top: 25px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #82af21;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-icons a:hover {
+    background-color: #fff;
+    color: #82af21;
+}
+
+.footer-links a:hover {
+    color: #82af21;
+}
+
+.footer-hours p {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* END OF FOOTER SECTION */
 
 
 /* Media Query */
@@ -1156,26 +1157,26 @@ button:hover {
 
     /* services page */
 
-    .row .right .content {
+    .services-row .services-right .services-content {
         padding: 0;
     }
 
-    .row .left {
+    .services-row .services-left {
         overflow: visible;
     }
     
-    .row .right .content {
+    .services-row .services-right .services-content {
         padding-left: 10px;
         padding-right: 10px;
         height: 750px;
     }
     
-    .content h2 {
+    .services-content h2 {
         padding-top: 5px;
         padding-bottom: 30px;
     }
 
-    .row .right .content p {
+    .services-row .services-right .services-content p {
         padding-bottom: 0;
     }
 }
@@ -1317,16 +1318,16 @@ button:hover {
 
     /* services page */
 
-    .row {
+    .services-row {
         width: 100%;
         grid-template-columns: 1fr;
     }
 
-    .content h2 {
+    .services-content h2 {
         font-size: 2em;
     }
     
-    .row .right .content p {
+    .services-row .services-right .services-content p {
         font-size: 1em;
         line-height: 18px;
         padding-bottom: 0;
@@ -1338,7 +1339,7 @@ button:hover {
         border-radius: 15px;
     }
 
-    .row .right .content {
+    .services-row .services-right .services-content {
         height: 500px;
     }
 
