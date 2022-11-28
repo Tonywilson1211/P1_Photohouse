@@ -197,7 +197,7 @@ nav ul li a:hover {
     background: linear-gradient(258deg, #82af21ad 0%, #34a14fb7 16%, #008e6daf 33%, #007779b0 50%, #005e71ad 66%, #2f485871 83%, #00ffd979 100%);
     width: 100%;
     padding: 50px;
-    height: 1000px;
+    height: 1200px;
 }
 
 .services-title h2 {
@@ -256,24 +256,16 @@ nav ul li a:hover {
     font-weight: 400;
 }
 
-.services-card .button {
+.services-card .services-button {
     background-color: #2f4858;
     color: #fff;    
     padding: 10px 30px;
     border-radius: 50px;
 }
 
-.services-card .button:hover {
+.services-card .services-button:hover {
     background-color: #82af21;
     color: #2f4858;
-}
-
-/* Page Break */
-
-.pagebreak {
-    height: 100px;
-    width: 100%;
-    background-color: #fff;
 }
 
 /*home page - contact us section*/
@@ -1243,15 +1235,17 @@ button:hover {
 
     /* home page - services section */
 
+ 
     .services-card {
-        height: 460px;
-        width: 90%;
+        height: 450px;
+        width: 95%;
     }
 
     .services-title h2 {
         color: #fff;
-        font-size: 1.5em;
-    
+        font-size: 1.2em;
+        padding: 0;
+        margin: 0;
     }
 
     .serivces {
@@ -1262,6 +1256,13 @@ button:hover {
 
     .services-card i {
         font-size: 2em;
+    }
+
+    .services-card .services-button {
+        background-color: #2f4858;
+        color: #fff;    
+        padding: 10px 30px;
+        border-radius: 50px;
     }
 
     /* home page - contact us */
