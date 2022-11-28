@@ -8,7 +8,9 @@
     font-family: 'poppins', sans-serif;
 }
 
-/* nav bar */
+/* NAVBAR CONFIG*/
+
+/* nav wrapper */
 
 nav {
     width: 100%;
@@ -22,6 +24,8 @@ nav {
     z-index: 10;
 }
 
+/* logo */
+
 #logo {
     color:#82af21;
     font-size: 3.5em;
@@ -33,6 +37,8 @@ nav span {
     color: #fff;
     font-family: 'Anton', sans-serif;
 }
+
+/* contact us button */
 
 .contact-button {
     background-color: #82af21;
@@ -50,6 +56,8 @@ nav span {
 .contact-button:hover {
     transform: scale(1.2);
 }
+
+/* navbar list options */
 
 nav ul {
     justify-content: center;
@@ -69,6 +77,8 @@ nav ul li a{
     padding: 40px;
     letter-spacing: 2px;
 }
+
+/* navbar animation */
 
 nav ul li a:before{
     position: absolute;
@@ -93,9 +103,13 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
+/* navbar active page config */
+
 .active {
     background-color: rgb(130, 175, 33, 0.4);
 }
+
+/* navbar menu toggle for tablet and mobile devices */
 
 #menu-open, #menu-close {
     font-size: 28px;
@@ -111,7 +125,11 @@ nav ul li a:hover {
     display: none;
 }
 
-/* main page - hero image and cover text */
+/* END OF NAVBAR CONFIG */
+
+/* HERO IMAGE AND COVER TEXT - HOME PAGE */
+
+/* hero image config */
 
 .hero-image {
     height: 100vh;
@@ -122,6 +140,8 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
 }
+
+/* cover text config */
 
 #cover-text {
     background-color: rgb(255, 255, 255, 0.9);
@@ -142,7 +162,9 @@ nav ul li a:hover {
     font-family: 'dancing script', sans-serif;
 }
 
-/* main page - about section */
+/* ABOUT SECTION - HOME PAGE */
+
+/* flexbox config*/
 
 .about {
     width: 100%;
@@ -152,7 +174,6 @@ nav ul li a:hover {
     background-color: #2f4858;
 }
 
-
 .left-about, .right-about {
     display: flex;
     flex-direction: column;
@@ -161,7 +182,6 @@ nav ul li a:hover {
     width: 100%;
     text-align: center;
     justify-content: center;
-    
 }
 
 .center-about {
@@ -174,11 +194,14 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+/* text config */
 
-.center-about h2 {
-    color: #82af21;
+.center-about h1 {
+    color: #fff;
     font-size: 3em;
+    padding-bottom: 10px;
 }
+
 
 .about h3 {
     font-family: 'dancing script', sans-serif;
@@ -194,50 +217,55 @@ nav ul li a:hover {
     padding: 15px;
 }
 
-/* home page - services section */
+/* END OF ABOUT SECTION - HOME PAGE */
+
+/* SERVICES SECTION - HOME PAGE */
+
+/* flexbox config */
 
 .serivces {
     background: linear-gradient(258deg, #82af21ad 0%, #34a14fb7 16%, #008e6daf 33%, #007779b0 50%, #005e71ad 66%, #2f485871 83%, #00ffd979 100%);
     width: 100%;
-    padding: 50px;
-    height: 1200px;
-}
-
-.services-title h2 {
-    color: #fff;
-    font-size: 2.5em;
-    text-align: center;
-    letter-spacing: 4px;
-}
-
-.services-title h3 {
-    font-family: Lato;
-    font-size: 1em;
-    padding-bottom: 20px;
-    color: #2f4858;
+    max-height: 100%;
+    min-height: 1200px;
 }
 
 .services-box {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 0 30px;
 }
 
 .services-card {
-    height: 600px;
-    width: 450px;
+    min-height: 525px;
+    max-height: 100%;
+    width: 400px;
     padding: 20px 35px;
     border-radius: 20px;
-    margin: 15px;
+    margin: 30px 15px;
     text-align: center;
     background: #fff;
-    position: relative;
+}
+
+/* text config */
+
+.services-title h1 {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.services-card h2 {
+    color: #2f4858;
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    font-family: 'dancing script', sans-serif;
 }
 
 .services-card i {
     font-size: 50px;
     text-align: center;
-    margin: 50px 0;
+    padding: 3% 0 4% 0;
     color: #2f4858;
 }
 
@@ -245,33 +273,31 @@ nav ul li a:hover {
     color: #82af21;
 }
 
-.services-card h1 {
-    color: #2f4858;
-    font-size: 2.5em;
-    margin-bottom: 50px;
-    font-family: 'dancing script', sans-serif;
-}
-
-.services-text p {
+.services-card p {
     padding-bottom: 40px;
     color: #2f4858;
     font-size: 1em;
     font-weight: 400;
 }
 
-.services-card .services-button {
+/* navigation button config */
+
+.services-button {
     background-color: #2f4858;
     color: #fff;    
     padding: 10px 30px;
     border-radius: 50px;
 }
 
-.services-card .services-button:hover {
+.services-button:hover {
     background-color: #82af21;
-    color: #2f4858;
 }
 
-/*home page - contact us section*/
+/* END OF SERVICES SECTION - HOME PAGE */
+
+/* CONTACT US SECTION - HOME PAGE */
+
+/* image config */
 
 .contact-us-container {
     width: 100%;
@@ -282,6 +308,8 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
 }
+
+/* button config */
 
 .contact-us-button {
     width: 30%;
@@ -303,7 +331,11 @@ nav ul li a:hover {
     border: 2px solid #2f4858;
 }
 
-/* home page - gallery section */
+/* END OF CONTACT US SECTION - HOME PAGE */
+
+/* GALLERY SECTION - HOME PAGE */
+
+/* flexbox config */
 
 #gallery {
     width: 100%;
@@ -329,28 +361,12 @@ nav ul li a:hover {
     position: relative; 
 }
 
-.gallery-image h3, a {
-    color: #fff;
-    font-weight: normal;
-}
-
-.gallery-image a {
-    cursor: pointer;
-    background-color: rgb(130, 175, 33,0.9);
-    padding: 4px;
-    border-radius: 20px;
-}
-
-.gallery-image a:hover {
-    background-color: #fff;
-    color: #82af21;
-    border: 2px solid #82af21;
-}
-
 .gallery-image img {
     width: 100%;
     padding: 10px;
 }
+
+/* overlay config */
 
 .overlay {
     width: 100%;
@@ -364,6 +380,42 @@ nav ul li a:hover {
 
 .gallery-image:hover .overlay {
     opacity: 1;
+}
+
+.gallery-image:hover .gallery-text {
+    bottom: 40%;
+    opacity: 1;
+}
+
+/* asthetic line in overlay*/
+.hr0 {
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+
+/* navigation button config */
+
+.gallery-image a {
+    cursor: pointer;
+    background-color: rgb(130, 175, 33,0.9);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.gallery-image a:hover {
+    background-color: #fff;
+    color: #82af21;
+    border: 2px solid #82af21;
+}
+
+/* text config */
+
+.gallery-image h3, a {
+    color: #fff;
+    font-weight: normal;
 }
 
 .gallery-title {
@@ -380,7 +432,6 @@ nav ul li a:hover {
     font-family: 'lato', sans-serif;
     font-size: 2em;
     padding-bottom: 20px;
-    
 }
 
 .gallery-title h4 {
@@ -401,24 +452,13 @@ nav ul li a:hover {
     transition: 1s;
 }
 
-.hr0 {
-    background: #fff;
-    height: 2px;
-    border: 0;
-    margin: 15px auto;
-    width: 60%;
-}
-
 .gallery-text p {
     font-size: 14px;
 }
 
-.gallery-image:hover .gallery-text {
-    bottom: 40%;
-    opacity: 1;
-}
+/* END OF GALLERY SECTION - HOME PAGE */
 
-/* footer section */
+/*FOOTER SECTION */
 
 .footer {
     background-color: #2f4858;
@@ -952,7 +992,7 @@ button:hover {
 
 /* Media Query */
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1250px) {
     
     #logo {
         font-size: 2.0em;
@@ -980,25 +1020,35 @@ button:hover {
         box-sizing: border-box;  
         display: flex;
         flex-direction: column;
-
+        padding: 0;
     }
+    
     .services-card {
-        height: 400px;
-        width: 70%;
+        width: 95%;
+        min-height: 450px;
+        width: 95%;
+        padding: 0;
     }
-    .services-title h2 {
+
+    .services-title h2, i {
         color: #fff;
         font-size: 1.5em;
+        padding: 0;
+        
 
     }
-    .serivces {
-        height: 1800px;
 
+    .services-button {
+        background-color: #2f4858;
+        color: #fff;    
+        padding: 10px 30px;
+        border-radius: 50px;
     }
-    .services-card i {
-        font-size: 3em;
-        margin:0;
-    }
+
+    
+
+
+ 
 
     /* home page - gallery section */
 
@@ -1224,34 +1274,7 @@ button:hover {
     /* home page - services section */
 
  
-    .services-card {
-        height: 450px;
-        width: 95%;
-    }
-
-    .services-title h2 {
-        color: #fff;
-        font-size: 1.2em;
-        padding: 0;
-        margin: 0;
-    }
-
-    .serivces {
-        height: 1800px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .services-card i {
-        font-size: 2em;
-    }
-
-    .services-card .services-button {
-        background-color: #2f4858;
-        color: #fff;    
-        padding: 10px 30px;
-        border-radius: 50px;
-    }
+ 
 
     /* home page - contact us */
     
