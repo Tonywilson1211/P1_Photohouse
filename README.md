@@ -14,6 +14,11 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
 * [Introduction](#introduction)
 * [Existing Features](#features)
+    * [Landing Page](#landing-page)
+    * [Navigation Bar](#navigation-bar)
+    * [About Section](#about-section)
+    * [Services Section](#services-section)
+    * [Gallery Section](#gallery-section)
 
 
 
@@ -45,12 +50,33 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
 ### Services Section
 
-* The services section on the home page offers a breif overview of the services provided by the company. This is a quick reference point and clickable navigation links under each service takes the user to the services page where further information is provided on the product the user is monst interested in. On the services page, further clickable navigation links are available that provide access to the gallery page or the contact us page. Fluidity and ease of use for UX is kept in mind here. 
-[Services Section On Home Page Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
-[Services Page Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
+* The services section on the home page offers a breif overview of the services provided by the company. 
+* This is a quick reference point and clickable navigation links under each service takes the user to the services page where further information is provided on the product the user is monst interested in. 
+* On the services page, further clickable navigation links are available that provide access to the gallery page or the contact us page. Fluidity and ease of use for UX is kept in mind here. <br>
+[Services Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
+[Services Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
 ![Services Intro](./assets/images/readme-images/services-intro.jpg)<br>
-![Services Intro](./assets/images/readme-images/services-page.jpg)
+![Services Page](./assets/images/readme-images/services-page.jpg)
 
+### Gallery Section
+
+* The gallery section on the home page offers a brief overview of the type of photography provided by the company.
+* Hover elements over each image draw the user to navigate to the gallery page where they will find a greater range of images.
+* On the gallery page users can hover over images to increase the scale, providing a zoom-like effect.
+* All photos are chosen to illustrate the quality of the service provided and fill the user with confidence on the company's ability to deliever high standards.<br>
+[Gallery Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#gallery)<br>
+[Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#gallerypage)<br>
+![Gallery Intro](./assets/images/readme-images/gallery-intro.jpg)<br>
+![Gallery Page](./assets/images/readme-images/gallery-page.jpg)
+
+### Contact Us Section 
+
+* 
+
+[Gallery Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contact-us-container)<br>
+[Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contactUs)<br>
+![Gallery Intro](./assets/images/readme-images/contact-us.jpg)<br>
+![Gallery Page](./assets/images/readme-images/contact-us-page.jpg)
 
 
 ### Footer Section
