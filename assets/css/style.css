@@ -233,7 +233,7 @@ nav ul li a:hover {
 
 /* flexbox config */
 
-.serivces {
+#serivces {
     background: linear-gradient(258deg, #82af21ad 0%, #34a14fb7 16%, #008e6daf 33%, #007779b0 50%, #005e71ad 66%, #2f485871 83%, #00ffd979 100%);
     width: 100%;
     max-height: 100%;
@@ -474,7 +474,7 @@ nav ul li a:hover {
 
 /* grid layout config */
 
-.services-section {
+#services-section {
     width: 100%;
     display: grid;
     padding-left: 5%;

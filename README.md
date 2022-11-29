@@ -22,23 +22,34 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
 ### Landing Page 
 
-* The Landing Page is the first contact that users have with the website. A large hero image covers the user's screen and acts as a hook to intrigue the user to explore the site whilst already having an installed perception of quality. It also features text used to deliver a marketing slogan to retain the users engagement and quickly provide context of what the company offers.<br>
+* The Landing Page is the first contact that users have with the website. A large hero image covers the user's screen and acts as a hook to intrigue the user to explore the site whilst already having an installed perception of quality. 
+* It also features text used to deliver a marketing slogan to retain the users engagement and quickly provide context of what the company offers.<br>
 [Live Page Here](https://tonywilson1211.github.io/P1_Photohouse/)<br>
 ![Landing Page](./assets/images/readme-images/landing-page.jpg)
 
 
 ### Navigation Bar
 
-* At the top of the user's screen, users can find a fixed navigation bar that is fully responsive in all devices. The navigation bar is fixed to the top of the screen making for easy and fast navigation of the website should the user be wanting to quickly skim the website. A bold 'contact us' call to action button is located on the right side and the Photohouse logo on the left side.<br>
+* At the top of the user's screen, users can find a fixed navigation bar that is fully responsive in all devices. 
+* The navigation bar is fixed to the top of the screen making for easy and fast navigation of the website should the user be wanting to quickly skim the website. 
+* A bold 'contact us' call to action button is located on the right side and the Photohouse logo on the left side.<br>
 [Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/)<br>
 ![Navigation Bar](./assets/images/readme-images/navbar.jpg)
 
 ### About Section
 
-* The about section offers information on the company's main purpose, it's history and mission statement. <br>
-![About Section](./assets/images/readme-images/about-us.jpg)<br>
-[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#about)
+* The about section offers information on the company's main purpose, it's history and mission statement.<br>
+[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#about)<br>
+![About Section](./assets/images/readme-images/about-us.jpg)
 
+
+### Services Section
+
+* The services section on the home page offers a breif overview of the services provided by the company. This is a quick reference point and clickable navigation links under each service takes the user to the services page where further information is provided on the product the user is monst interested in. On the services page, further clickable navigation links are available that provide access to the gallery page or the contact us page. Fluidity and ease of use for UX is kept in mind here. 
+[Services Section On Home Page Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
+[Services Page Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
+![Services Intro](./assets/images/readme-images/services-intro.jpg)<br>
+![Services Intro](./assets/images/readme-images/services-page.jpg)
 
 
 
