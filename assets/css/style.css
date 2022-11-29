@@ -491,7 +491,7 @@ nav ul li a:hover {
     font-family: 'poppins';
 }
 
-.services-row .services-left {
+.services-left {
     overflow: hidden;
 }
 
@@ -501,7 +501,7 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
-.servcies-right .servcies-content {
+.servcies-content {
     justify-content: center;
 }
 
@@ -522,11 +522,12 @@ nav ul li a:hover {
     padding-bottom: 50px;
 }
 
-.services-row .servcies-right .services-content p {
+.services-content p {
     font-size: 1.2em;
     line-height: 26px;
     padding-bottom: 50px;
     text-align: justify;
+    color: #2f4858;
 }
 
 /* navigation button config */
@@ -709,7 +710,6 @@ button:hover {
 .formbox .row50 {
     display: flex;
     gap: 20px;
-
 }
 
 .inputbox {
@@ -765,17 +765,14 @@ button:hover {
 
 .info {
     background: rgb(255, 255, 255,0.8);
-    
 }
 
 .info h3 {
-    text-align: center;
+    padding-bottom: 10px;
     color: #2f4858;
-    
 }
 
 .infobox-contactdetails {
-    place-content: center;
     display: flex;
     flex-direction: column;
     padding-top: 10px;
@@ -783,7 +780,6 @@ button:hover {
 
 .info .infobox div {
     display: flex;
-    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -798,30 +794,22 @@ button:hover {
     font-size: 1.3em;
     border-radius: 50%;
     margin-right: 15px;
-    
-    
-
 }
 
 .info .infobox div p {
     color: #2f4858;
     font-size: 1.1em;
-    
 }
 
 .info .infobox div a {
     color: #2f4858;
     text-decoration: none;
     font-size: 1.1em;
-    
 }
 
 .sci {
     margin-top: 40px;
     display: flex;
-    place-content: center;
-    
-
 }
 
 .sci li {
@@ -832,8 +820,6 @@ button:hover {
 .sci li a {
     color: #2f4858;
     font-size: 2em;
-
-
 }
 
 .sci li a:hover {
@@ -842,7 +828,6 @@ button:hover {
 
 .map {
     padding: 0;
-
 }
 
 .map iframe {
@@ -992,11 +977,11 @@ button:hover {
 
 /* END OF FOOTER SECTION */
 
-
-/* Media Query */
+/* MEDIA QUERY AT 1250PX */
 
 @media screen and (max-width: 1250px) {
-    
+
+/* navbar logo and list items @ 1250px */
     #logo {
         font-size: 2.0em;
     }
@@ -1012,8 +997,7 @@ button:hover {
         padding: 15px;
     }
 
-    /* home page - services section */
-
+/* services section - home page @ 1250px */
 
     .services-box {
         display: flex;
@@ -1033,8 +1017,6 @@ button:hover {
         color: #fff;
         font-size: 1.5em;
         padding: 0;
-        
-
     }
 
     .services-button {
@@ -1044,12 +1026,7 @@ button:hover {
         border-radius: 50px;
     }
 
-    
-
-
- 
-
-    /* home page - gallery section */
+ /* gallery section - home page @ 1250px */
 
     .gallery-box {
         justify-content: center;
@@ -1087,28 +1064,32 @@ button:hover {
         opacity: 1;
     }
     
-        /* footer section */
+/* services page config @ 1250px */
 
-    .footer {
-        position: static;
-    }
-     .footer, .footer-left, .footer-center, .footer-right {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        margin-bottom: 40px;
-        text-align: center;
+    .services-row .services-right .services-content {
+        padding: 0;
     }
 
-    .footer-center {
-        order: -1;
+    .services-row .services-left {
+        overflow: visible;
     }
 
-    .footer-left {
-        padding-right: 70px ;
+    .services-row .services-right .services-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 750px;
     }
 
-    /* gallery page */
+    .services-content h2 {
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
+
+    .services-row .services-right .services-content p {
+        padding-bottom: 0;
+    }
+
+/* gallery page config @ 1250px */
 
     .gallerypage-box {
         width: 90%;     
@@ -1118,7 +1099,7 @@ button:hover {
         flex-basis: 49%;
     }
 
-    /* contact us page */
+/* contact us page config @ 1250px */
 
     .contactus-box {
         grid-template-columns: 1fr;
@@ -1152,42 +1133,45 @@ button:hover {
     .contactUs {
         height: 1800px;
     }
-
-    /* services page */
-
-    .services-row .services-right .services-content {
-        padding: 0;
-    }
-
-    .services-row .services-left {
-        overflow: visible;
-    }
     
-    .services-row .services-right .services-content {
-        padding-left: 10px;
-        padding-right: 10px;
-        height: 750px;
+/* footer section @ 1250px */
+
+    .footer {
+        position: static;
     }
-    
-    .services-content h2 {
-        padding-top: 5px;
-        padding-bottom: 30px;
+     .footer, .footer-left, .footer-center, .footer-right {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 40px;
+        text-align: center;
     }
 
-    .services-row .services-right .services-content p {
-        padding-bottom: 0;
+    .footer-center {
+        order: -1;
     }
+
+    .footer-left {
+        padding-right: 70px ;
+    }
+
+
 }
 
+/* END OF MEDIA QUERY 1250PX */
+
+/* MEDIA QUERY AT 800PX */
 
 @media screen and (max-width: 800px) {
     
-    /* nav bar */
+/* navbar logo */
 
     #logo {
         font-size: 2em;
         padding-left: 30px;
     }
+
+/* navbar menu toggle open/close @ 800px */
 
     #menu-open {
         display: block;
@@ -1216,6 +1200,8 @@ button:hover {
         display: block;
     }
 
+/* navbar list items @ 800px */
+
     nav {
         justify-content: space-between; 
     }
@@ -1237,7 +1223,7 @@ button:hover {
         display: block;
     }
 
-    /* home page - cover text*/
+/* cover text on hero image - home page @ 800px */
 
     #cover-text h2 {
         font-family: 'lato', sans-serif;
@@ -1256,7 +1242,7 @@ button:hover {
         padding: 5px;
     }
 
-    /* home page - about us section */
+/* about us section - home page @ 800px */
 
     .about {
         flex-direction: column;      
@@ -1270,12 +1256,7 @@ button:hover {
         min-height: 100%;
     }
 
-    /* home page - services section */
-
-    
- 
-
-    /* home page - contact us */
+/* contact us section - home page @ 800px */
     
     .contact-us-container {
         background: url('../images/Twilight1.webp') no-repeat fixed;
@@ -1287,7 +1268,7 @@ button:hover {
         width: 90%;
     }
     
-    /* home page - gallery section */
+/* gallery section - home page @ 800px */
 
     #gallery {
         min-height: 100%;
@@ -1314,7 +1295,7 @@ button:hover {
         display: none;
     }
 
-    /* services page */
+/* services page @ 800px */
 
     .services-row {
         width: 100%;
@@ -1323,6 +1304,10 @@ button:hover {
 
     .services-content h2 {
         font-size: 2em;
+    }
+
+    .services-row .services-right .services-content {
+        height: 500px;
     }
     
     .services-row .services-right .services-content p {
@@ -1337,11 +1322,7 @@ button:hover {
         border-radius: 15px;
     }
 
-    .services-row .services-right .services-content {
-        height: 500px;
-    }
-
-    /* gallery page */ 
+/* gallery page @ 800px */ 
 
     .gallerypage-image {
         flex-basis: 90%;
@@ -1372,18 +1353,17 @@ button:hover {
         width: 90%;
         border-radius: 7px;
         padding: 2px;
-        
     }
 
-    /* footer */ 
-
-    .footer {
-        padding: 50px 0;
-    }
-
-    /* contact us page */
+/* contact us page @ 800px */
 
     .contact-active {
         display: none;
+    }
+
+/* footer @ 800px */ 
+
+    .footer {
+        padding: 50px 0;
     }
 }
