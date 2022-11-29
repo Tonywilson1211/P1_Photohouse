@@ -176,7 +176,7 @@ nav ul li a:hover {
 
 /* flexbox config*/
 
-.about {
+#about {
     width: 100%;
     min-height: 500px;
     max-height: 100%;
@@ -213,7 +213,7 @@ nav ul li a:hover {
 }
 
 
-.about h3 {
+#about h3 {
     font-family: 'dancing script', sans-serif;
     font-size: 2em;
     text-align: center;
@@ -221,7 +221,7 @@ nav ul li a:hover {
     padding: 10px 10px;
 }
 
-.about p {
+#about p {
     font-size: 1em;
     color:#fff;
     padding: 15px;
@@ -1244,7 +1244,7 @@ button:hover {
 
 /* about us section - home page @ 800px */
 
-    .about {
+    #about {
         flex-direction: column;      
     }
 

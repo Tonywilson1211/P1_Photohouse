@@ -13,74 +13,34 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 # README Contents
 
 * [Introduction](#introduction)
-* [Features](#features)
+* [Existing Features](#features)
 
 
 
 
-## Features
+## Existing Features
 
 ### Landing Page 
 
+* The Landing Page is the first contact that users have with the website. A large hero image covers the user's screen and acts as a hook to intrigue the user to explore the site whilst already having an installed perception of quality. It also features text used to deliver a marketing slogan to retain the users engagement and quickly provide context of what the company offers.<br>
+[Live Page Here](https://tonywilson1211.github.io/P1_Photohouse/)<br>
 ![Landing Page](./assets/images/readme-images/landing-page.jpg)
 
-* The Landing Page is the first contact that users have with this website. This page works as a cover with a video playing in the background. It also features text used as a marketing slogan to retain the users engagement with the website. When clicked, this button drives the viewers to the homepage.  <br>
-[Live Page Here](https://tonywilson1211.github.io/P1_Photohouse/)
 
-### Navigation Menu
+### Navigation Bar
 
-![Navigation Menu](./assets/images/readme-images/navbar.jpg)
-* At the top of the website, users can find a fixed navigation menu that is fully responsive in all devices. In this navigation menu users can navigate to the different pages in the website. They can also see the Travel World logo on the left side. <br>
-[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/)
-
-### Home Page Header
-
-![Home Page Header](./assets/images/readme-images/home-page-header-image.jpg)
-* In this feature users can see a travel image as a background followed by some services provided by the company. It is advertising cost savings to the user by booking a trip with Travel World. <br>
-[Live Page Here](https://pedrocristo.github.io/portfolio_project_1/home.html)
+* At the top of the user's screen, users can find a fixed navigation bar that is fully responsive in all devices. The navigation bar is fixed to the top of the screen making for easy and fast navigation of the website should the user be wanting to quickly skim the website. A bold 'contact us' call to action button is located on the right side and the Photohouse logo on the left side.<br>
+[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/)<br>
+![Navigation Bar](./assets/images/readme-images/navbar.jpg)
 
 ### About Section
 
-![About Section](./assets/images/readme-images/home-page-about-section.jpg)
+* The about section offers information on the company's main purpose, it's history and mission statement. <br>
+![About Section](./assets/images/readme-images/about-us.jpg)<br>
+[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#about)
 
-* In this feature users have access to information about the company, for example the company's main purpose, its history, mission statement, and also the benefits of working for Travel World. <br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#about-section)
 
-### Banner Section 1 - Bali
 
-![Banner Section 1](./assets/images/readme-images/home-page-banner-section-1.jpg)
-
-* This feature is a highlight banner where the user can see a travel deal and book the trip by clicking on ' Book now' and it will allow the user to ring the  
-  Travel World office.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#banner-bali)
-
-### Top Trips Section
-
-![Top Trips Section](./assets/images/readme-images/home-page-top-trips-section.jpg)
-
-* This feature is a cards section where the top travel deals are displayed with information about the city, country, price, hotel name, hotel stars and duration of stay (number of days and nights). The card has a button where the user can book. When the user hovers over this, the box-shadow changes.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#top-trips)
-
-### Banner Section 2 - Maldives 
-
-![Banner Section 2](./assets/images/readme-images/home-page-banner-section-2.jpg)
-
-* This feature has the same purpose as the Top Trip Section. A modification to this section is when the user hovers over the card the user can zoom in on the image.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#banner-maldivas)
-
-### City Breaks Section
-
-![City Breaks Section](./assets/images/readme-images/home-page-city-trips-section.jpg)
-
-* This feature has the same purpose as the Top Trip Section. The difference  is when the card is hovered by the user the image zoom in.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#city-trips)
-
-### Partners Section
-
-![Partners Section](./assets/images/readme-images/home-page-partners-section.jpg)
-
-* In this section users can see partners and companies that Travel World work with.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#partners-section)
 
 ### Footer Section
 
