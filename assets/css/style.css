@@ -697,7 +697,6 @@ button:hover {
     font-weight: 500;
     font-size: 1.4em;
     margin-bottom: 10px;
-
 }
 
 /* form */
@@ -758,7 +757,6 @@ button:hover {
     max-width: 120px;
     cursor: pointer;
     padding: 14px 15px;
-
 }
 
 /* Info Box */
@@ -821,7 +819,6 @@ button:hover {
     color: #82af21;
     transform: translate(0, -10px);
 }
-
 
 .map {
     padding: 0;
@@ -1367,5 +1364,18 @@ button:hover {
     .footer {
         padding: 50px 0;
     }
- 
+}
+
+/* END OF MEDIA QUERY @ 800px */
+
+/* MEDIA QUERY FOR IPHONE 4 */
+
+@media screen and (max-height:590px) {
+    nav ul li a {
+        
+        font-size: 1em;
+        line-height: 40px;
+        padding: 20px;
+        letter-spacing: 2px;
+    }
 }
