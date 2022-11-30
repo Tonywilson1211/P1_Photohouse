@@ -772,12 +772,6 @@ button:hover {
     color: #2f4858;
 }
 
-.infobox-contactdetails {
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-}
-
 .info .infobox div {
     display: flex;
     margin-bottom: 10px;
@@ -820,11 +814,14 @@ button:hover {
 .sci li a {
     color: #2f4858;
     font-size: 2em;
+    transition: 1s;
 }
 
-.sci li a:hover {
+.sci li a:hover i {
     color: #82af21;
+    transform: translate(0, -10px);
 }
+
 
 .map {
     padding: 0;
@@ -963,7 +960,7 @@ button:hover {
 
 .footer-icons a:hover {
     background-color: #fff;
-    color: #fff;
+    color: #82af21;
 }
 
 .footer-links a:hover {
@@ -1013,7 +1010,7 @@ button:hover {
         padding: 5px;
     }
 
-    .services-title h2, i {
+    .services-title h2 {
         color: #fff;
         font-size: 1.5em;
         padding: 0;
@@ -1111,7 +1108,18 @@ button:hover {
     }
     #contactUs {
         padding: 0;
-        height: 1800px;
+        height: 100%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info a {
+        color: #2f4858;
     }
     
     .map {
@@ -1133,15 +1141,13 @@ button:hover {
     
 /* footer section @ 1250px */
 
-    .footer {
-        position: static;
-    }
      .footer, .footer-left, .footer-center, .footer-right {
         display: flex;
         width: 100%;
         flex-direction: column;
-        margin-bottom: 40px;
         text-align: center;
+        height: 100%;
+        padding: 25px 0;
     }
 
     .footer-center {
@@ -1151,8 +1157,6 @@ button:hover {
     .footer-left {
         padding-right: 70px ;
     }
-
-
 }
 
 /* END OF MEDIA QUERY 1250PX */
@@ -1363,4 +1367,5 @@ button:hover {
     .footer {
         padding: 50px 0;
     }
+ 
 }

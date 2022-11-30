@@ -71,7 +71,7 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
 ### Contact Us Section 
 
-* 
+* The contact us section on the home page is located after the services section as a call to action should a user be nearing the stage of to discuss further information with the company. 
 
 [Gallery Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contact-us-container)<br>
 [Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contactUs)<br>
