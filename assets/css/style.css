@@ -802,20 +802,19 @@ button:hover {
 .sci {
     margin-top: 40px;
     display: flex;
+    font-size: 2em;
+
 }
 
-.sci li {
+.sci a {
+    color: #2f4858;
+    
+    transition: 1s;
     list-style-type: none;
     margin-right: 15px; 
 }
 
-.sci li a {
-    color: #2f4858;
-    font-size: 2em;
-    transition: 1s;
-}
-
-.sci li a:hover i {
+.sci a:hover i {
     color: #82af21;
     transform: translate(0, -10px);
 }
@@ -1113,10 +1112,6 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .info a {
-        color: #2f4858;
     }
     
     .map {
