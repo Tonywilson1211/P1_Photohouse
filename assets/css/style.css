@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Lato:wght@300;400&family=Poppins:wght@300;400&display=swap');
-
+/* four font styles in use: anton, dancing script, lato, poppins */
 * {
     padding: 0;
     margin: 0;
@@ -10,8 +10,8 @@
 
 /* NAVBAR CONFIG*/
 
-/* nav wrapper */
 
+/* nav wrapper config to be fixed at top of screen */
 nav {
     width: 100%;
     height: 150px;
@@ -24,7 +24,7 @@ nav {
     z-index: 10;
 }
 
-/* logo */
+/* logo split into two sections to apply different colours */
 
 #logo {
     color:#82af21;
@@ -38,7 +38,7 @@ nav span {
     font-family: 'Anton', sans-serif;
 }
 
-/* contact us button */
+/* contact us button made to be bold, obvious and enlarges on hover */
 
 .contact-button {
     background-color: #82af21;
@@ -57,7 +57,7 @@ nav span {
     transform: scale(1.2);
 }
 
-/* navbar list options */
+/* navbar list options centred with thick padding in order to stand out */
 
 nav ul {
     justify-content: center;
@@ -78,7 +78,7 @@ nav ul li a{
     letter-spacing: 2px;
 }
 
-/* navbar animation */
+/* navbar animation adds moving line from left to right under list items - hover effect */
 
 nav ul li a:before{
     position: absolute;
@@ -87,7 +87,7 @@ nav ul li a:before{
     bottom: 0;
     height: 3px;
     width: 100%;
-    background: white;
+    background: #fff;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform .4s linear;
@@ -98,18 +98,18 @@ nav ul li a:hover:before {
     transform-origin: left;
 }
 
+/* additional navbar hover effect */
 nav ul li a:hover {
     color: #82af21;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
 /* navbar active page config */
-
 .active {
     background-color: rgb(130, 175, 33, 0.4);
     text-decoration: underline;
 }
-
+/* specific control over contact button in navbar when in contact us page */
 .contact-active {
     background-color: rgb(130, 175, 33,0.5);
     padding: 30px;
@@ -120,7 +120,6 @@ nav ul li a:hover {
 }
 
 /* navbar menu toggle for tablet and mobile devices */
-
 #menu-open, #menu-close {
     font-size: 28px;
     color: #fff;
@@ -139,8 +138,7 @@ nav ul li a:hover {
 
 /* HERO IMAGE AND COVER TEXT - HOME PAGE */
 
-/* hero image config */
-
+/* hero image covers entirety of display with flex to center cover text */
 .hero-image {
     height: 100vh;
     width: 100%;
@@ -151,8 +149,7 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-/* cover text config */
-
+/* cover text for marketing slogan */
 #cover-text {
     background-color: rgb(255, 255, 255, 0.9);
     padding: 30px;
@@ -174,8 +171,7 @@ nav ul li a:hover {
 
 /* ABOUT SECTION - HOME PAGE */
 
-/* flexbox config*/
-
+/* flexbox setup with 3 columns with text centred */
 #about {
     width: 100%;
     min-height: 500px;
@@ -231,8 +227,7 @@ nav ul li a:hover {
 
 /* SERVICES SECTION - HOME PAGE */
 
-/* flexbox config */
-
+/* flexbox setup for three 'cards' centred in page and evenly spread from each other */
 #serivces {
     background: linear-gradient(158deg, #82af21ad 10%, #34a14fb7 16%, #008e6daf 33%, #007779b0 50%, #005e71ad 66%, #2f485871 83%);
     width: 100%;
@@ -273,6 +268,7 @@ nav ul li a:hover {
     font-family: 'dancing script', sans-serif;
 }
 
+/* two clickable nav buttons per 'card' */
 .services-card i {
     font-size: 50px;
     text-align: center;
@@ -308,20 +304,18 @@ nav ul li a:hover {
 
 /* CONTACT US SECTION - HOME PAGE */
 
-/* image config */
-
+/* image is fixed for scrolling effect with flex centering for nav button */
 #contact-us-container {
     width: 100%;
     height: 290px;
-    background: url('../images/Hero22.webp') no-repeat center fixed;
+    background: url('../images/site-images/hero22.webp') no-repeat center fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-/* button config */
-
+/* contact us nav link config */
 .contact-us-button {
     width: 30%;
     height: 75px;
@@ -346,8 +340,7 @@ nav ul li a:hover {
 
 /* GALLERY SECTION - HOME PAGE */
 
-/* flexbox config */
-
+/* flexbox config for responsive sizing */
 #gallery {
     width: 100%;
     min-height: 800px;
@@ -378,8 +371,7 @@ nav ul li a:hover {
     padding: 10px;
 }
 
-/* overlay config */
-
+/* overlay covers 100% of each image to provide darker background for text which is centred */
 .overlay {
     width: 100%;
     height: 100%;
@@ -390,10 +382,12 @@ nav ul li a:hover {
     transition: 1s;
 }
 
+/* overlay becomes visible once hovered over*/
 .gallery-image:hover .overlay {
     opacity: 1;
 }
 
+/*overlay transitions up from bottom of image*/
 .gallery-image:hover .gallery-text {
     bottom: 40%;
     opacity: 1;
@@ -408,8 +402,7 @@ nav ul li a:hover {
     width: 60%;
 }
 
-/* navigation button config */
-
+/* navigation button appears in overlay and links to gallery page */
 .gallery-image a {
     cursor: pointer;
     background-color: rgb(130, 175, 33,0.9);
@@ -424,7 +417,7 @@ nav ul li a:hover {
 }
 
 /* text config */
-
+/* stlye theme consistent across site */
 .gallery-image h3, a {
     color: #fff;
     font-weight: normal;
@@ -481,20 +474,20 @@ nav ul li a:hover {
     padding-right: 5%;
     text-align: center;
 }
-
+/* setup rows so image and text are side by side */
 .services-row {
     width: 100%;
     padding: 50px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px 30px;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
 }
-
+/* stop image from overlapping text*/
 .services-left {
     overflow: hidden;
 }
-
+/* keeps image at 100% when compressed to avoid squashing the image */
 .services-left img {
     width: 100%;
     height: 100%;
@@ -506,7 +499,7 @@ nav ul li a:hover {
 }
 
 /* text config */
-
+/* different styles given to each heading */
 .servicespage-title h1 {
     font-size: 4em;
     color: #2f4858; 
@@ -530,8 +523,7 @@ nav ul li a:hover {
     color: #2f4858;
 }
 
-/* navigation button config */
-
+/* navigation button in each row to be big and inviting */
 button {
     text-align: center;
     font-family: 'lato',sans-serif;
@@ -560,13 +552,13 @@ button:hover {
 /*GALLERY PAGE */
 
 /* flexbox config */
-
 #gallerypage {
     width: 100%;
     padding: 50px 0;
     background: #fff;
 }
 
+/* gallery section intended for large photos */
 .gallerypage-box {
     width: 80%;
     display: flex;
@@ -575,7 +567,7 @@ button:hover {
     margin: auto;
     justify-content: center;
 }
-
+/* images capped at 45% to ensure 2 images can fit side by side */
 .gallerypage-image {
     flex-basis: 45%;
     text-align: center;
@@ -592,11 +584,10 @@ button:hover {
 }
 
 /* headings text config */
-
 .gallerypage-title {
     text-align: center;
 }
-
+/* stlye theme consistent across site */
 .gallerypage-title h1 {
     font-size: 4em;
     letter-spacing: 4px;
@@ -628,8 +619,7 @@ button:hover {
     scroll-margin: 150px;
 }
 
-/* zoom animation */
-
+/* zoom animation. scale set at 1.1 so as not to overlap other images or be a nuisance when navigating (accidential hover) */
 .gallerypage-image:hover {
     transform: scale(1.1);
 }
@@ -639,7 +629,10 @@ button:hover {
 /* CONTACT US PAGE */
 
 #contactUs {
-    background: url('../images/site-images/hero11.webp') no-repeat center;
+    background-image: url('../images/site-images/hero11.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 1200px;
     width: 100%;
     padding: 0 100px;
@@ -662,7 +655,7 @@ button:hover {
     margin-bottom: 100px;
     text-align: center;
 }
-
+/* split into 3 sections for messaging form, company contact details and company location */
 .form {
     grid-area: form;
 }
@@ -680,6 +673,8 @@ button:hover {
     background: rgb(255, 255, 255,0.8);
     box-shadow: 0 5px 35px rgba(0,0,0,0.15);
 }
+
+/* grid layout config */
 .contactus-box {
     position: relative;
     display: grid;
@@ -699,7 +694,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
-/* form */
+/* form config */
 
 .formbox {
     position: relative;
@@ -720,14 +715,6 @@ button:hover {
 
 .formbox .row100 .inputbox {
     width: 100%
-}
-
-.inputbox h4 {
-    color: #2f4858;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-weight: 500;
-    font-family: lato;
 }
 
 .inputbox input {
@@ -759,15 +746,19 @@ button:hover {
     padding: 14px 15px;
 }
 
-/* Info Box */
+/* text config for messaging form */
+.inputbox h4 {
+    color: #2f4858;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: lato;
+}
+
+/* Info Box - company contact details */
 
 .info {
     background: rgb(255, 255, 255,0.8);
-}
-
-.info h3 {
-    padding-bottom: 10px;
-    color: #2f4858;
 }
 
 .info .infobox div {
@@ -788,6 +779,12 @@ button:hover {
     margin-right: 15px;
 }
 
+/* text config for business contact details box */
+.info h3 {
+    padding-bottom: 10px;
+    color: #2f4858;
+}
+
 .info .infobox div p {
     color: #2f4858;
     font-size: 1.1em;
@@ -799,16 +796,15 @@ button:hover {
     font-size: 1.1em;
 }
 
+/* social media links */
 .sci {
     margin-top: 40px;
     display: flex;
     font-size: 2em;
-
 }
 
 .sci a {
     color: #2f4858;
-    
     transition: 1s;
     list-style-type: none;
     margin-right: 15px; 
@@ -818,6 +814,8 @@ button:hover {
     color: #82af21;
     transform: translate(0, -10px);
 }
+
+/* map config - company location */
 
 .map {
     padding: 0;
@@ -830,15 +828,14 @@ button:hover {
 
 /*FOOTER SECTION */
 
-/* flexbox config */
+/* flexbox config, 3 columns */
 
 #footer {
-    background-color: #2f4858;
-    width: 100%;
-    font-size: 16px;
-    padding: 50px 50px 60px 50px;
-    
     display: flex;
+    width: 100%;
+    padding: 50px 50px 60px 50px;
+    background-color: #2f4858;
+    font-size: 16px;
 }
 
 .footer-left, .footer-center, .footer-right {
@@ -847,12 +844,13 @@ button:hover {
     width: 33%;
 }
 
-/* footer left */
+/* footer left config - company contact details: email, contact number and company location/address */
 
 .footer-left {
     text-align: left;
 }
 
+/* icon config for email, phone number and company location */
 .footer-left i {
     background-color: #82af21;
     color: #fff;
@@ -872,7 +870,7 @@ button:hover {
     color: #fff;
 }
 
-/* footer center */
+/* footer center - company logo, website navigation links and copyright */
 
 .footer-center {
     text-align: center;
@@ -891,7 +889,7 @@ button:hover {
     letter-spacing: 4px;
 }
 
-/* footer center navigation links */
+/* footer center - navigation links */
 
 .footer-links {
     color: #fff;
@@ -905,7 +903,11 @@ button:hover {
     color: #fff;
 }
 
-/* footer center copyright */
+.footer-links a:hover {
+    color: #82af21;
+}
+
+/* footer center - copyright */
 
 .footer-copyright {
     color: rgb(221, 219, 219);
@@ -931,14 +933,16 @@ button:hover {
 
 .footer-hours p {
     line-height: 2;
+    color: #fff;
+    font-size: 14px;
 }
 
-/* social media navigation links config */
-
+/* icons for opening hours */
 .footer-icons {
     margin-top: 25px;
 }
 
+/* social media navigation links config */
 .footer-icons a {
     display: inline-block;
     width: 35px;
@@ -959,26 +963,20 @@ button:hover {
     color: #82af21;
 }
 
-.footer-links a:hover {
-    color: #82af21;
-}
-
-.footer-hours p {
-    color: #fff;
-    font-size: 14px;
-}
-
 /* END OF FOOTER SECTION */
 
 /* THANK YOU PAGE */
 
+/* page triggered by action of sending message via form */
 .message-received {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
-    }
+    padding-top: 150px;
+    min-height: 700px;
+    text-align: center;
+}
 
 .message-received h1 {
     color: #2f4858;
@@ -995,13 +993,28 @@ button:hover {
     padding-bottom: 10px;
 }
 
+/* END OF THANK YOU PAGE */
+
+/* AUTHOR SECTION */ 
+
+.author {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* END OF AUTHOR SECTION */ 
+
 
 
 /* MEDIA QUERY AT 1250PX */
 
 @media screen and (max-width: 1250px) {
 
-/* navbar logo and list items @ 1250px */
+/* navbar logo and list items padding and font-size reduced @ 1250px */
     #logo {
         font-size: 2.0em;
     }
@@ -1017,7 +1030,7 @@ button:hover {
         padding: 15px;
     }
 
-/* services section - home page @ 1250px */
+/* services section - home page: change flexbox to column and condense @ 1250px */
 
     .services-box {
         display: flex;
@@ -1048,37 +1061,22 @@ button:hover {
 
  /* gallery section - home page @ 1250px */
 
-    .gallery-box {
-        justify-content: center;
-    }
-
-    .gallery-image {
+     .gallery-image {
         flex-basis: 40%;
-        text-align: center;
-        border-radius: 7px;
-        margin-bottom: 20px;
-        color: #fff;
-        position: relative; 
     }
-
+/* overlay is now fixed and no longer a hover element */
     .overlay {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        border-radius: 7px;
         background: linear-gradient(rgba(0,0,0,0.3),rgb(47, 72, 88,0.3));
         opacity: 1;
-        transition: 1s;
     }
-
+/* text is fixed and no longer a hover element */
     .gallery-text {
         width: 100%;
         height: 60%;
         opacity: 1;
         font-size: 0.5em;
     }
-
+/* text is centered in images */
     .gallery-image:hover .gallery-text {
         bottom: 0;
         opacity: 1;
@@ -1089,11 +1087,7 @@ button:hover {
     .services-row .services-right .services-content {
         padding: 0;
     }
-
-    .services-row .services-left {
-        overflow: visible;
-    }
-
+/* reduce padding and set height to suit screen width*/
     .services-row .services-right .services-content {
         padding-left: 10px;
         padding-right: 10px;
@@ -1114,12 +1108,12 @@ button:hover {
     .gallerypage-box {
         width: 90%;     
     }
-    
+/* increase image size whilst maintaining 2 by 2 image layout */
     .gallerypage-image {
         flex-basis: 49%;
     }
 
-/* contact us page config @ 1250px */
+/* contact us page config @ 1250px - reduce grid to columns */
 
     .contactus-box {
         grid-template-columns: 1fr;
@@ -1129,11 +1123,13 @@ button:hover {
         "info"
         "map";
     }
+
     #contactUs {
         padding: 0;
         height: 100%;
     }
 
+/* centering layout */
     .info {
         display: flex;
         flex-direction: column;
@@ -1141,6 +1137,7 @@ button:hover {
         align-items: center;
     }
     
+/* maintain map integrity */
     .map {
         min-height: 300px;
     }
@@ -1158,7 +1155,7 @@ button:hover {
         width: 100%;
     }
     
-/* footer section @ 1250px */
+/* footer section @ 1250px - reduce footer to columns */
 
      #footer, .footer-left, .footer-center, .footer-right {
         display: flex;
@@ -1169,6 +1166,7 @@ button:hover {
         padding: 25px 0;
     }
 
+/* change ordering so footer center appears first in footer */
     .footer-center {
         order: -1;
     }
@@ -1191,7 +1189,7 @@ button:hover {
         padding-left: 30px;
     }
 
-/* navbar menu toggle open/close @ 800px */
+/* navbar collape into toggle open/close menu @ 800px */
 
     #menu-open {
         display: block; 
@@ -1220,7 +1218,7 @@ button:hover {
         display: block;
     }
 
-/* navbar list items @ 800px */
+/* navbar list items rearranged to fit nav menu @ 800px */
 
     nav {
         justify-content: space-between; 
@@ -1262,7 +1260,7 @@ button:hover {
         padding: 5px;
     }
 
-/* about us section - home page @ 800px */
+/* about us section - home page @ 800px - collape into column */
 
     #about {
         flex-direction: column;      
@@ -1276,7 +1274,7 @@ button:hover {
         min-height: 100%;
     }
 
-/* contact us section - home page @ 800px */
+/* contact us section - home page @ 800px - change background image to better suit screen size */
     
     #contact-us-container {
         background: url('../images/Twilight1.webp') no-repeat fixed;
@@ -1293,10 +1291,7 @@ button:hover {
     #gallery {
         min-height: 100%;
     }
-    
-    .gallery-box {
-        justify-items: center;
-    }
+   
     
     .gallery-image {
         flex-basis: 90%;
@@ -1315,7 +1310,7 @@ button:hover {
         display: none;
     }
 
-/* services page @ 800px */
+/* services page @ 800px - collape so image is above text instead of to the left*/
 
     .services-row {
         width: 100%;
@@ -1342,25 +1337,8 @@ button:hover {
         border-radius: 15px;
     }
 
-/* gallery page @ 800px */ 
+/* gallery page @ 800px - collape gallery to column image display */ 
 
-    .gallerypage-image {
-        flex-basis: 90%;
-        text-align: center;
-        border-radius: 7px;
-        margin-bottom: 20px;
-        color: #fff;
-        margin: auto;
-    }
-
-    .gallerypage-box {
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 2%;
-        margin: auto;
-    }
-    
     .gallerypage-image {
         flex-basis: 100%;
         text-align: center;
@@ -1375,7 +1353,7 @@ button:hover {
         padding: 2px;
     }
 
-/* contact us page @ 800px */
+/* contact us page @ 800px - remove contact us button from navbar */
 
     .contact-active {
         display: none;
@@ -1393,8 +1371,8 @@ button:hover {
 /* MEDIA QUERY FOR IPHONE 4 */
 
 @media screen and (max-height:590px) {
+/* reduce height of nav menu to fit in shorter screen resolution */
     nav ul li a {
-        
         font-size: 1em;
         line-height: 40px;
         padding: 20px;
