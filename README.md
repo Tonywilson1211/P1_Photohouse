@@ -13,14 +13,86 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 # README Contents
 
 * [Introduction](#introduction)
+* [User Experience (UX)](#user-experience-UX)
+    * [User stories](#user-stories)
+* [Design](#Design)
+    * [Website Structure](#website-structure)
+    * [Colour Scheme](#colour-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Videos](#videos)
+    * [Google Maps](#google-maps)
+    * [interactive Links](#interactive-links) 
 * [Existing Features](#features)
     * [Landing Page](#landing-page)
     * [Navigation Bar](#navigation-bar)
     * [About Section](#about-section)
     * [Services Section](#services-section)
     * [Gallery Section](#gallery-section)
+    * [Contact Us Section](#contact-us-section)
+    * [Footer Section](#footer-section)
 
 
+## User Experience - UX
+
+ ### User Stories
+
+* As a website creator, I want to:
+  
+1. Build a website that is visually appealing from the user’s first visit so they are intrigued to explore all the pages and contact the company for more details.
+2. Build an easy to navigate website for its users.
+   
+* As a new visitor, I want to:
+
+1. Understand the main purpose of the site.
+2. Be able to easily navigate throughout the site and find relevant content about services provided.
+3. Be able to easily contact the company for more information.
+   
+* As a returning visitor, I want to:
+
+1. Review quality of services available
+2. Obtain contact information and/or easily send a message to the company.
+   
+## Design
+
+### Website Structure
+* Photohouse website is a four page site: Home Page, Services Page, Gallery Page and Contact Us Page. 
+* The Home Page has 6 sections: (1) Hero image and cover text, (2) About, (3) Services Overview, (4) Contact Us Button, (5) Gallery Overview, (6) Footer. 
+* The Services Page has 3 sections: (1) Photography, with link to Gallery Page (2) Floorplans, with link to Contact Us Page, (3) EPCs, with link to Contact Us Page.
+* The Gallery Page has 4 sections: (1) Residential photography (2) Lifestyle photography (3) Twilight photography (4) Drone Photography.
+* The Contact Us Page has 3 sections: (1) Message form (2) company Contact Details (3) Map showing company location.
+* All pages have a link to all the pages in the website via the fixed Navigation Bar (at the top of the users screen), and the footer section (at the bottom of each page). 
+
+#### Colour Scheme
+* There are three main colours used: (1) white (#fff), (2) green (#82AF21), (3) dark blue (#2F4858). Each colour is used for various roles throughout the website in order maintain a fresh appearance through creativity whilst remaining consistent so as not to become random or chaotic.
+* In the Services Section on the Home Page the user will see a linear gradient as the background using the six colours in the same generic gradient as the green (#82AF21) and dark blue (#2F4858) at 158 degrees.
+* All colours match the hero image on the Home Page in order to create the sense of intention and consideration, as well as attention to detail which is a nod to the company's about section.<br>
+ ![Colour Scheme](./assets/images/readme-images/colour-gradient.jpg)
+
+
+#### Typography
+* The Anton, sans-serif is used for the company logo. Chosen for being bold and hard to miss.
+* The Lato, sans-serif is used for section headings. Chosen for lending itself well to being used as large font without being overbearing.
+* The Dancing Script, sans-serif is used to display either quotes or less important headings. Chosen for adding a sense of 'personal touch' thus cultivating a feeling of attention to detail, passion and approachabiity. 
+* The Poppins, sans-serif is used as the main font for the whole website. Chosen for being easy to read.<br>
+![Typography](./assets/images/readme-images/anton.jpg) 
+![Typography](./assets/images/readme-images/l&ds.jpg) 
+![Typography](./assets/images/readme-images/ds&p.jpg)
+
+         
+#### Imagery
+* Hero image chosen to conveys quality, care and attention, warmth and modern styling. All qualities the company wishes to associate with. The image is also a good example of the quality of work the company can produce.
+* 4 images are used in the Gallery Section of the Home Page to symbolise a style of photography, residential, lifestyle, twilight and drone. 
+* 2 images are used in the Contact Us Section of the Home Page which are fixed in place whilst the user is scrolling. Images change at screen-width 800px to better suit the device. 
+* All images converted to the webp files apart from those in the readme.md file.
+
+### Google Maps
+* The web site has a Google Maps location section where the users can locate the office in London.
+
+### Interactive Links  
+
+* At the bottom of each page inside the Footer Section and again on the Contact Us Page, users can access the company social media links. Once these icons are clicked they are opened in a new tab. 
+* In the Footer Section and Contact Us Page, users can click on the company email address to send an email. 
 
 
 ## Existing Features
@@ -56,6 +128,7 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 [Services Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
 [Services Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
 ![Services Intro](./assets/images/readme-images/services-intro.jpg)<br>
+[Services Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
 ![Services Page](./assets/images/readme-images/services-page.jpg)
 
 ### Gallery Section
@@ -67,72 +140,37 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 [Gallery Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#gallery)<br>
 [Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#gallerypage)<br>
 ![Gallery Intro](./assets/images/readme-images/gallery-intro.jpg)<br>
+[Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#gallerypage)<br>
 ![Gallery Page](./assets/images/readme-images/gallery-page.jpg)
 
 ### Contact Us Section 
 
-* The contact us section on the home page is located after the services section as a call to action should a user be nearing the stage of to discuss further information with the company. 
-
+* The contact us section on the home page is located after the services section as a call to action after reviewing an overview of services provided.
+* A user may be on the verge of wanting to make contact with the company after reviewing the services so the positioning of the call to action is intentional.
+* Having multiple calls to action for contacting the company is important in order to reach the website's goal of generating more enquiries.
 [Gallery Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contact-us-container)<br>
 [Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contactUs)<br>
 ![Gallery Intro](./assets/images/readme-images/contact-us.jpg)<br>
+[Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contactUs)<br>
 ![Gallery Page](./assets/images/readme-images/contact-us-page.jpg)
 
 
 ### Footer Section
 
-![Footer Section](./assets/images/readme-images/home-page-footer-image.jpg)
-
-* This feature is called the Footer Section. Here users can see information about the company's schedule and contact Travel World through the social media links. The copyright message is displayed on the bottom.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/home.html#footer)
-
-### Contact Page
-
-![Contact Page](./assets/images/readme-images/contact-page.jpg)
-
-* In this page users can contact the Travel World via a contact form. The contact form requires the user's first name, last name, email and message. The user can also see the location of the Travel World office on Google Maps.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/contact.html)
-
-### Thanks Page
-
-![Contact Page](./assets/images/readme-images/thanks-page.jpg)
-
-* Once the user successfully submits a contact form, they will land on the 'Thanks' Page. When the button is clicked it brings the users back to the contact form.<br>
-[Live Feature Here](https://pedrocristo.github.io/portfolio_project_1/thanks-page.html)
-
-## Future Features
-  
-### Customer Review Section
-
-* Add a Customer Review Section in the Home page. This would allow users to offer suggestions on how to improve the website and display customers' experiences and their opinions of Travel World.
+* The footer containers the company's contact details, location, opening hours, copyright and additional navigation links and social media links.
+* The user will benefit from having multple choices on how to obtain information they require or navigation methods, thus benefiting UX<br>
+[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#footer)<br>
+![Footer Section](./assets/images/readme-images/footer.jpg)
 
 
 
 
 
-* [User Experience UX](#user-experience---UX)
-    * [User stories](#user-stories)
-* [Design](#Design)
-        
-    * [Website Structure](#website-structure)
-    * [Colour Scheme](#colour-scheme)
-    * [Typography](#typography)
-    * [Imagery](#imagery)
-    * [Videos](#videos)
-    * [Google Maps](#google-maps)
-    * [interactive Links](#interactive-links) 
-* [Features](#features)  
-    * [Landing Page](#landing-page) 
-    * [Home Page Header](#home-age-eader)
-    * [About Section](#about-section)
-    * [Banner Section 1 - Bali](#banner-section-1---bali) 
-    * [Top Trips Section](#top-trips-section)
-    * [Banner Section 2 - Maldives](#banner-section-2---maldives)
-    * [City Breaks Section](#city-breaks-section)
-    * [Partners Section](#partners-section)
-    * [Footer Section](#footer-section)
-    * [Contact Page](#Contact-page)
-    * [Thanks Page](#thanks-page)
+
+
+
+
+
 * [Future Features](#future-features)
     * [Customer Review Section](#customer-review-section)
 * [Technologies Used](#technologies-used)

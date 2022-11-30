@@ -234,7 +234,7 @@ nav ul li a:hover {
 /* flexbox config */
 
 #serivces {
-    background: linear-gradient(258deg, #82af21ad 0%, #34a14fb7 16%, #008e6daf 33%, #007779b0 50%, #005e71ad 66%, #2f485871 83%, #00ffd979 100%);
+    background: linear-gradient(158deg, #82af21ad 10%, #34a14fb7 16%, #008e6daf 33%, #007779b0 50%, #005e71ad 66%, #2f485871 83%);
     width: 100%;
     max-height: 100%;
     min-height: 1200px;
@@ -832,7 +832,7 @@ button:hover {
 
 /* flexbox config */
 
-.footer {
+#footer {
     background-color: #2f4858;
     width: 100%;
     font-size: 16px;
@@ -878,14 +878,14 @@ button:hover {
     text-align: center;
 }
 
-.footer h3 {
+#footer h3 {
     color: #fff;
     font-family: 'Anton', sans-serif;
     letter-spacing: 3px;
     font-size: 2em;
 }
 
-.footer h3 span {
+#footer h3 span {
     color: #82af21;
     font-family: 'Anton', sans-serif;
     letter-spacing: 4px;
@@ -1133,7 +1133,7 @@ button:hover {
     
 /* footer section @ 1250px */
 
-     .footer, .footer-left, .footer-center, .footer-right {
+     #footer, .footer-left, .footer-center, .footer-right {
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -1167,7 +1167,7 @@ button:hover {
 /* navbar menu toggle open/close @ 800px */
 
     #menu-open {
-        display: block;
+        display: block; 
     }
 
     ul {
@@ -1356,7 +1356,7 @@ button:hover {
 
 /* footer @ 800px */ 
 
-    .footer {
+    #footer {
         padding: 50px 0;
     }
 }
