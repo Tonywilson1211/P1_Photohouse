@@ -186,62 +186,6 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 * [Credits](#credits)
 * [Content](#content)
 
-## User Experience - UX
-
- ### User Stories
-
-* As a website creator, I want to:
-  
-1. Build a website that is visually appealing from the user’s first visit so they are intrigued to explore all the pages.
-2. Build an easy to navigate website for its users.
-   
-* As a new visitor, I want to:
-
-1. Understand the main purpose of the site.
-2. Be able to easily navigate throughout the site and find relevant content about package holidays.
-3. Be able to easily contact the company for more information.
-   
-* As a returning visitor, I want to:
-
-1. Be able to find newly available package holidays.
-2. Be able to find more relevant information about the company.
-   
-## Design
-
-### Website Structure
-Travel World website is a four pages site: Landing Page, Home Page, Contact Page and Thanks Page. The default loading page is the Landing Page and it is linked to the Home Page by a button. The Home Page has 8 sections: (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and Footer. This page, is linked to all the pages in the website by the Navigation Menu on the top. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners (3) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
-
-#### Colour Scheme
- ![Landing Page](./assets/images/readme-images/color-pallete.jpg)
- There are four main colours used: (1 ) white (#ffffff), (2) a variation of white (#faebd7), (3) an orange tone (#f84f0d) and (4) a black (#111111). The white is used for the main website background, the black is used for text while the orange represents a colour tone that can be seen in the logo, titles and icons. When the user hovers, the white variation (#faebd7) is used for the button background.
- In the Footer Section I used a linear gradient as background using four main colours and orientation of 258 degrees.
-
-#### Typography
-* The Poppins , sans-serif is used as the main font for the whole website.
-* The El Messiri, sans-serif is used to display the hotel's name on the cards.
-         
-#### Imagery
-* 3 background images one in the Header and another 2 in the Banner Section.
-* 6 Images for the icons in the Trust Section with the size of 48px by 48px. They are PNG files.
-* 2 images in the About Section with the size of 680px by 410px.
-* 12 images for the Top Trips Section and City Break Section with the size of 950px by 713px.
-* 8 Images in the Partners Section with the size of 580px by 280px.
-* 1 image GiF animation in the Thanks Page.
-* Please Note (All images were converted to the webp files except the 6 images in the Trust Section).
-
-###  Videos
-* The Landing Page has one video as a background displaying muted, loop and autoplay.
-
-### Google Maps
-* The web site has a Google Maps location section where the users can locate the office in Dublin.
-
-### Interactive Links  
-
-* At the bottom of the Landing Page and footer, users can access the company social media links (Facebook and Twitter). Once these icons are clicked they are opened in a new tab. 
-* In the Banner Bali and Banner Maldives the user can directly telephone the company by clicking the 'book now' button.
-
-
-
 
 ## Technologies Used
 
