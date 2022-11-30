@@ -970,6 +970,33 @@ button:hover {
 
 /* END OF FOOTER SECTION */
 
+/* THANK YOU PAGE */
+
+.message-received {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    }
+
+.message-received h1 {
+    color: #2f4858;
+    font-size: 3em;
+    font-family: 'lato',sans-serif;
+    padding-bottom: 20px;
+}
+
+.message-received p {
+    color: #2f4858;
+    font-size: 1.5em;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
 /* MEDIA QUERY AT 1250PX */
 
 @media screen and (max-width: 1250px) {
