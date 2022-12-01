@@ -289,14 +289,14 @@ nav ul li a:hover {
 
 /* navigation button config */
 
-.services-button, .homepage-button {
+.services-button {
     background-color: #2f4858;
     color: #fff;    
     padding: 10px 30px;
     border-radius: 50px;
 }
 
-.services-button:hover, .homepage-button:hover {
+.services-button:hover {
     background-color: #82af21;
 }
 
@@ -965,7 +965,7 @@ button:hover {
 /* THANK YOU PAGE */
 
 /* page triggered by action of sending message via form */
-.message-received, .page-not-found {
+.message-received {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -975,14 +975,14 @@ button:hover {
     text-align: center;
 }
 
-.message-received h1, .page-not-found h1 {
+.message-received h1  {
     color: #2f4858;
     font-size: 3em;
     font-family: 'lato',sans-serif;
     padding-bottom: 20px;
 }
 
-.message-received p, .page-not-found h2 {
+.message-received p {
     color: #2f4858;
     font-size: 1.5em;
     font-family: 'poppins',sans-serif;
@@ -992,6 +992,43 @@ button:hover {
 
 /* END OF THANK YOU PAGE */
 
+/* 404 ERROR PAGE */
+
+.page-not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    min-height: 700px;
+    text-align: center;
+}
+
+.page-not-found h1 {
+    color: #2f4858;
+    font-size: 3em;
+    font-family: 'lato',sans-serif;
+    padding-bottom: 20px;
+}
+
+.page-not-found h2 {
+    color: #2f4858;
+    font-size: 1.5em;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.homepage-button {
+    background-color: #2f4858;
+    color: #fff;    
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.homepage-button:hover {
+    background-color: #82af21;
+}
 
 
 /* AUTHOR SECTION */ 
