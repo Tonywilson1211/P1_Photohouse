@@ -980,7 +980,6 @@ button:hover {
     justify-content: center;
     margin-top: 175px;
     
-    
 }
 
 .message-received h1  {
@@ -996,7 +995,7 @@ button:hover {
     width: 80%;
 }
 
-.message-received p {
+.message-received h2 {
     display: flex;
     justify-content: center;
     align-items: center;
