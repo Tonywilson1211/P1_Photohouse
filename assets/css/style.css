@@ -1006,6 +1006,7 @@ button:hover {
     text-align: center;
     margin-bottom: 50px;
     width: 80%;
+    font-weight: normal;
 }
 
 
@@ -1045,6 +1046,8 @@ button:hover {
     text-align: center;
     margin-bottom: 50px;
     width: 80%;
+    font-weight: normal;
+    
 }
 
 .homepage-button {
@@ -1052,6 +1055,7 @@ button:hover {
     color: #fff;    
     padding: 10px 30px;
     border-radius: 50px;
+    margin-bottom: 50px;
 }
 
 .homepage-button:hover {
