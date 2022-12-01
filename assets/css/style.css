@@ -289,14 +289,14 @@ nav ul li a:hover {
 
 /* navigation button config */
 
-.services-button {
+.services-button, .homepage-button {
     background-color: #2f4858;
     color: #fff;    
     padding: 10px 30px;
     border-radius: 50px;
 }
 
-.services-button:hover {
+.services-button:hover, .homepage-button:hover {
     background-color: #82af21;
 }
 
@@ -521,6 +521,11 @@ nav ul li a:hover {
     padding-bottom: 50px;
     text-align: justify;
     color: #2f4858;
+}
+
+/* centers service in page when link followed from home page */
+.services-container {
+    scroll-margin: 200px;
 }
 
 /* navigation button in each row to be big and inviting */
@@ -870,7 +875,7 @@ button:hover {
     color: #fff;
 }
 
-/* footer center - company logo, website navigation links and copyright */
+/* footer center - company logo, website navigation links */
 
 .footer-center {
     text-align: center;
@@ -905,14 +910,6 @@ button:hover {
 
 .footer-links a:hover {
     color: #82af21;
-}
-
-/* footer center - copyright */
-
-.footer-copyright {
-    color: rgb(221, 219, 219);
-    font-size: 14px;
-    margin: 0;
 }
 
 /* footer right */
@@ -968,7 +965,7 @@ button:hover {
 /* THANK YOU PAGE */
 
 /* page triggered by action of sending message via form */
-.message-received {
+.message-received, .page-not-found {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -978,14 +975,14 @@ button:hover {
     text-align: center;
 }
 
-.message-received h1 {
+.message-received h1, .page-not-found h1 {
     color: #2f4858;
     font-size: 3em;
     font-family: 'lato',sans-serif;
     padding-bottom: 20px;
 }
 
-.message-received p {
+.message-received p, .page-not-found h2 {
     color: #2f4858;
     font-size: 1.5em;
     font-family: 'poppins',sans-serif;
@@ -994,6 +991,8 @@ button:hover {
 }
 
 /* END OF THANK YOU PAGE */
+
+
 
 /* AUTHOR SECTION */ 
 
