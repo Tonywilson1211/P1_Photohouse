@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/53bccbcb41.js" crossorigin="anonymous"></script>
     <title>Home - Photohouse</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Favicon Links-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -16,26 +17,31 @@
     
     
 </head>
-<!----Navbar---->
 <body>
     <header>
+        <!--Navbar-->
         <nav>
+            <!--logo is clickable link to home page-->
             <a href="index.html" aria-label="link to home page"><h1 id="logo">Photo<span>house</span></h1></a>
             <input type="checkbox" id="check">
             <label for="check">
+                <!--open/close toggle for nav menu on mobile device-->
                 <i class="fas fa-bars" id="menu-open"></i>
                 <i class="fas fa-times" id="menu-close"></i>
             </label>
             <ul>
+                <!--nav list options for site navigation-->
                 <li><a href="index.html" class="active" aria-label="link to home page">Home</a></li>
                 <li><a href="services.html" aria-label="link to services page">Services</a></li>
                 <li><a href="gallery.html" aria-label="link to gallery page">Gallery</a></li>
+                <!--contact.html in nav list hidden from view until viewing website on mobile device-->
                 <li><a href="contact.html" id="contact-us" aria-label="link to contact us page">Contact Us</a></li>
             </ul>
+            <!--contact us button appears in navbar on devices larger than 800px -->
             <a href="contact.html" class="contact-button" aria-label="link to contact us page">Contact Us</a>
         </nav>
     </header>
-    <!----Hero Image And Cover Text---->
+    <!--Hero Image And Cover Text-->
     <main> 
         <section class="hero-image">
             <div id="cover-text">
@@ -43,7 +49,7 @@
                     <h3>quality serivce. outstanding photos.</h3> 
             </div>
         </section>
-    <!--About Us Section-->
+        <!--About Us Section-->
         <section id="about">
             <div class="left-about">
                 <h3>Specialists in Property Market<hr class="hr1"></h3>
@@ -62,7 +68,7 @@
                 The company’s Headquarters are in Putney, South West London, from here we run our team of creative photographers, meticulous floor planners and Energy Performance Assessors.</p>
             </div>
         </section>
-    <!--Services Section---->
+        <!--Services Section-->
         <section id="serivces">
             <div class="services-title">
                 <h1>Our Services<br>. . .</h1>
@@ -88,9 +94,9 @@
                 </div>
             </div>
         </section>
-    <!----Contact Us Section---->
+        <!--Contact Us Section-->
         <div id="contact-us-container"><a class="contact-us-button" href="contact.html" aria-label="link to contact us page">Contact Us</a></div>
-    <!----Gallery Section---->
+        <!--Gallery Section-->
         <section id="gallery">
             <div class="gallery-title">
                 <h2>Gallery</h2>
@@ -137,7 +143,7 @@
             </div>
         </section>
     </main>  
-    <!----Footer Section---->
+    <!--Footer Section-->
     <footer id="footer">
         <!--footer left-->
             <div class="footer-left">
