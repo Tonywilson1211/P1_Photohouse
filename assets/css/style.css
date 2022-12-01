@@ -737,14 +737,19 @@ nav ul li a:hover {
 }
 
 .inputbox input[type="submit"]{
-    background: #82af21;
-    color: rgb(255, 255, 255,0.8);
+    background: #2f4858;
+    color: #fff;
     border: none;
-    font-size: 1.1em;
+    font-size: 1.5em;
     max-width: 120px;
     cursor: pointer;
     padding: 14px 15px;
 }
+
+.inputbox input:hover[type="submit"]{
+    background-color: #82af21;
+}
+
 
 /* text config for messaging form */
 .inputbox h4 {
