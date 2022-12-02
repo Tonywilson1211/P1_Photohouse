@@ -525,6 +525,7 @@ nav ul li a:hover {
 }
 
 /* centers service in page when link followed from home page */
+/* Note: scroll-margin code suggested by mentor */
 .services-container {
     scroll-margin: 200px;
 }
@@ -616,6 +617,7 @@ nav ul li a:hover {
     background-color: rgb(47, 72, 88,0.6);
     font-size: 2.5em;
     margin: 15px 0;
+    /* Note: scroll-margin code suggested by mentor */
     scroll-margin: 150px;
 }
 

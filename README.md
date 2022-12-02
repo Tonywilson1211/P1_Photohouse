@@ -1,9 +1,9 @@
 # Photohouse - HTML & CSS Website
 
 # Introduction
-This project is a Front End website for Photohouse, a marketing company based in London, England, that works with estate agents to provide photographs, floorplans and Energy Performance Certificates (EPCs) on properties they are contracted to sell or let. The main purpose of the website is to raise brand awareness, promote quality of services offered and increase the number of potential new business leads for the company. Intended users are estate agents and homeowners so UX has been designed to be create a feeling of professionalism and approachability with focus set on quality of services offered. 
+This project is a Front End website for Photohouse, a marketing company based in London, England, that works with estate agents to provide photographs, floorplans and Energy Performance Certificates (EPCs) on properties they are contracted to sell or let. The main purpose of the website is to raise brand awareness, promote quality of services offered and increase the number of potential new business leads for the company. Intended users are estate agents and homeowners so UX has been designed to create a feeling of professionalism and approachability with focus set on quality of services offered. 
 
-The website uses HTML and CSS code only, and is interative, provides constant feedback to the user, is based on UX experience design and is fully accessible and responsive down to 280px. 
+The website uses HTML and CSS code only, and is interactive, provides constant feedback to the user, is based on UX experience design and is fully accessible and responsive down to 280px. 
 
 [Live Website Here](https://tonywilson1211.github.io/P1_Photohouse/)
 
@@ -98,8 +98,8 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
 ### Typography
 * The Anton, sans-serif is used for the company logo. Chosen for being bold and hard to miss.
-* The Lato, sans-serif is used for section headings. Chosen for lending itself well to being used as large font without being overbearing.
-* The Dancing Script, sans-serif is used to display either quotes or less important headings. Chosen for adding a sense of 'personal touch' thus cultivating a feeling of attention to detail, passion and approachabiity. 
+* The Lato, sans-serif is used for section headings. Chosen for being ideal when used as a large font size without being overbearing.
+* The Dancing Script, sans-serif is used to display either quotes or less important headings. Chosen for adding a sense of 'personal touch' thus cultivating a feeling of attention to detail, passion and approachability. 
 * The Poppins, sans-serif is used as the main font for the whole website. Chosen for being easy to read.<br>
 ![Typography](./assets/images/readme-images/anton.jpg) 
 ![Typography](./assets/images/readme-images/l&ds.jpg) 
@@ -107,7 +107,7 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
          
 ### Imagery
-* Hero image chosen to conveys quality, care and attention, warmth and modern styling. All qualities the company wishes to associate with. The image is also a good example of the quality of work the company can produce.
+* Hero image chosen to convey quality, care and attention, warmth and modern styling. All qualities the company wishes to associate with. The image is also a good example of the quality of work the company can produce.
 * 4 images are used in the Gallery Section of the Home Page to symbolise a style of photography, residential, lifestyle, twilight and drone. 
 * 2 images are used in the Contact Us Section of the Home Page which are fixed in place whilst the user is scrolling. Images change at screen-width 800px to better suit the device. 
 * All images converted to the webp files apart from those in the readme.md file.
@@ -148,8 +148,8 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
 ### Services Section
 
-* The services section on the home page offers a breif overview of the services provided by the company. 
-* This is a quick reference point and clickable navigation links under each service takes the user to the services page where further information is provided on the product the user is monst interested in. 
+* The services section on the Home Page offers a brief overview of the services provided by the company. 
+* This is a quick reference point and clickable navigation links under each service takes the user to the services page where further information is provided on the product the user is most interested in. 
 * On the services page, further clickable navigation links are available that provide access to the gallery page or the contact us page. Fluidity and ease of use for UX is kept in mind here. <br>
 [Services Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
 [Services Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#services)<br>
@@ -162,7 +162,7 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 * The gallery section on the home page offers a brief overview of the type of photography provided by the company.
 * Hover elements over each image draw the user to navigate to the gallery page where they will find a greater range of images.
 * On the gallery page users can hover over images to increase the scale, providing a zoom-like effect.
-* All photos are chosen to illustrate the quality of the service provided and fill the user with confidence on the company's ability to deliever high standards.<br>
+* All photos are chosen to illustrate the quality of the service provided and fill the user with confidence in the company's ability to deliver high standards.<br>
 [Gallery Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#gallery)<br>
 [Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#gallerypage)<br>
 ![Gallery Intro](./assets/images/readme-images/gallery-intro.jpg)<br>
@@ -183,21 +183,21 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 ### Footer Section
 
 * The footer containers the company's contact details, location, opening hours, copyright and additional navigation links and social media links.
-* The user will benefit from having multple choices on how to obtain information they require or navigation methods, thus benefiting UX<br>
+* The user will benefit from having multiple choices on how to obtain information they require or navigation methods, thus benefiting UX<br>
 [Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#footer)<br>
 ![Footer Section](./assets/images/readme-images/footer.jpg)
 
 ## Favicon
 
-* A favicon will appear in the in the tab header to allow for easy identification of the website.
-* The favicon is an abbreviation of the company name and is consisitent with colours used in the webiste.<br>
+* A favicon will appear in the tab header to allow for easy identification of the website.
+* The favicon is an abbreviation of the company name and is consistent with colours used in the website.<br>
 [Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html)<br>
 ![Favicon](./assets/images/readme-images/favicon.jpg)
 
 ### Thank You Page
 
 * A thank you page will be displayed to the user once a message form has been submitted.
-* This allows the user to immediately know their message has sent successfully and manages expectations on when a response is likely.<br>
+* This allows the user to immediately know their message has been sent successfully and manages expectations on when a response is likely.<br>
 [Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/thank-you.html)<br>
 ![Thank You](./assets/images/readme-images/thank-you.jpg)
 
@@ -210,7 +210,7 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
 ## Future Features
 
-* Chatbox intergration to allow users to chat instantly with the company.
+* Chatbox integration to allow users to chat instantly with the company.
 * Contact Form to be updated with javascript to send email to the company with contact information.
 
 ## Technologies Used
@@ -222,13 +222,13 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
     * The website was styled using custom CSS in an external file.
 
 * Visual Studio Code
-    * The website was developed using Visual Stuido Code IDE.
+    * The website was developed using Visual Studio Code IDE.
 
 * GitHub
     * Source code is hosted on GitHub and deployed using Git Pages.
 
 * Git
-    * Used to commit and push code during the development of the webiste.
+    * Used to commit and push code during the development of the website.
 
 * Font Awesome
     * Icons sourced from https://fontawesome.com/.
@@ -253,17 +253,16 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
 
     * Apple iPhone 4 (320px x 480px)
-    * Apple iPhone 5/S (320px 568px)
     * Nokia Lumia 520 (320px x 533px) 
+    * Apple iPhone 5/S (320px 568px)
     * Samsung Galaxy S9+(320px x 658px) 
     * Google Pixel 4 (353px x 745px)
     * BlackBerry Z30 (360px x 640px)  
-    * Samsung Galaxy Note 3 (360px x 640px) 
     * Samsung Galaxy S3 (360px x 640px)
     * Microsoft Lumia 950 (360px x 640px) 
-    * Samsung Galaxy S8 (360 x 740px)  
-    * Apple iPhone X (375px x 812px)
+    * Samsung Galaxy S8 (360px x 740px) 
     * Apple iPhone 6/7/8 (375px x 667px)
+    * Apple iPhone X (375px x 812px)
     * LG Optimus L70 (384px x 640px)
     * Nexus 4 (384px x 640px) 
     * Apple iPhone 12 Pro (390px x 844px)
@@ -272,25 +271,25 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
     * Google Pixel 2 (411px x 731px)
     * Nexus 5X (412px x 732px)
     * Samsung Galaxy S20 Ultra (412px x 915px)
-    * Apple iPhone XR (414px x 896px)
     * Apple iPhone 6/7/8 Plus (414px x 736px)
+    * Apple iPhone XR (414px x 896px)
     * Apple iPad Mini (468px x 4024)
-    * Nokia N9 (480px x 854px) 
+    * Nokia N9 (480px x 854px)
     * Surface Duo (540px x 720px)
-    * BlackBerry PlayBook (600px x 1024px) 
     * Nexus 7 (600px x 960px)
-    * Microsoft Lumia 550 (640px x 360px)  
+    * BlackBerry PlayBook (600px x 1024px) 
+    * Microsoft Lumia 550 (640px x 360px) 
     * Samsung Galaxy Tab S4 (712px x 1138px)
     * Apple iPad Mini (768px x 1024px)
     * Kindle Fire HDX (800px x 1280px)
     * Apple iPad Air (820px x 1180px)
     * Surface Pro 7 (912px x 1368px)
-    * Apple iPad Pro (1024px x 1366px)
     * Nest Hub (1024px x 600px)
+    * Apple iPad Pro (1024px x 1366px)
     * Nest Hub Max (1280px x 800px)
 
-* Issue was found when testing iPhone 4 in that nav menu wouldn't display correction due to length of menu and short screen height. Specific media query was created for the iPhone 4 to correct this.
-* Two devices identified as not being compatable with the webiste (1) Galaxy Fold (280px x 653px) (2) JioPhone 2 (240px x 320px). The will resolved in future updates. 
+* Issue was found when testing iPhone 4 in that the nav menu wouldn't display correction due to length of menu and short screen height. Specific media query was created for the iPhone 4 to correct this.
+* Two devices identified as not being compatible with the website (1) Galaxy Fold (280px x 653px) (2) JioPhone 2 (240px x 320px). This will be resolved in future updates.
 
 ### Validators
 
@@ -307,7 +306,7 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 
 ### Lighthouse
 Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO.
-* Webiste results
+* Website results
     * ![Home Page](./assets/images/readme-images/lighthouse-index.jpg)
     * ![Services Page](./assets/images/readme-images/lighthouse-services.jpg)
     * ![Gallery Page](./assets/images/readme-images/lighthouse-gallery.jpg)
@@ -322,15 +321,15 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 * All social media links work correctly and open on a new tab.
 * All images load on each page as intended.
 * All navigation links are working correctly and bring the users to the function intended.
-* The form on the contact us page was test to ensure it functioned as expected. Data is required within all sections of the form or submition isn't possible. Thank you page seen as expected once form filled out correctly and submitted. 
+* The form on the contact us page was tested to ensure it functioned as expected. Data is required within all sections of the form or submition isn't possible. Thank you page was displayed as expected once the form had been filled out correctly and submitted.
 
 ### Bugs
 
-* Navigation links to particular sections of a webpage were loading out of alignment. This was fixed by using 'scroll-margin' and adjusting to height of navbar. 
+* Navigation links to particular sections of a webpage were loading out of alignment. This was fixed by using 'scroll-margin' and adjusting the height of the navbar.
 * iPhone 4 screen height was found to be shorter than the nav menu meaning part of the nav menu was unreachable. This was fixed by implementing a specific media query for screen heights less than 590px.
-* On Home Page, sections would overlap each other when testing responsiveness. This was fixed by setting About Section, Services Section and Gallery Section to 'max-height: 100%;'
-* On Services Page, float was used for initial layout however issues arose with responsiveness testing. This was fixed by rebuilding the page based on grid layout. 
-* No further bugs found to be present on website. 
+* On the Home Page, sections would overlap each other when testing responsiveness. This was fixed by setting About Section, Services Section and Gallery Section to 'max-height: 100%;'
+* On the Services Page, float was used for initial layout however issues arose with responsiveness testing. This was fixed by rebuilding the page based on grid layout. 
+* No further bugs found to be present on the website. 
 
 ## Deployment of This Project
 
@@ -341,9 +340,9 @@ The website development was created in the "main" branch. This branch was deploy
 1. Open [GitHub](https://github.com/).
 2. Click on the project to be deployed.
 3. Navigate to the "Settings".
-4. Navigate to the "Pages" in column on left.
+4. Navigate to the "Pages" in the column on the left.
 5. Select the "main" branch and select "Save".
-6. The link to the live website was ready on the top.
+6. The link to the live website will be ready after a few moments and will appear at the top of the page.
 
 ## Forking This Project
 
@@ -382,7 +381,7 @@ The website development was created in the "main" branch. This branch was deploy
 
 ## Content
 
-* All the text content is adapted from original source at [Fresh Photography](https://www.freshphotohouse.com/).
+* All the text content is adapted from the original source at [Fresh Photography](https://www.freshphotohouse.com/).
 
 ### Images
 
