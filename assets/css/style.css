@@ -754,12 +754,11 @@ nav ul li a:hover {
 
 
 /* text config for messaging form */
-.inputbox h4 {
+.inputbox label {
     color: #2f4858;
     margin-top: 10px;
     margin-bottom: 5px;
-    font-weight: 500;
-    font-family: lato;
+    font-family: 'poppins',sans-serif;
 }
 
 /* Info Box - company contact details */
