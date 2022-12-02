@@ -30,7 +30,17 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
     * [Services Section](#services-section)
     * [Gallery Section](#gallery-section)
     * [Contact Us Section](#contact-us-section)
+    * [Thank You Page](#thank-you-page)
     * [Footer Section](#footer-section)
+    * [Favicon](#favicon)
+    * [404 Error](#404-page)
+* [Future Features](#future-features)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+    * [Responsiveness](#responsiveness)
+    * [Validators](#validators)
+    * [Lighthouse](#lighthouse)
+    * [Functional Testing](#functional-testing)
 
 
 ## User Experience - UX
@@ -55,22 +65,30 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
    
 ## Design
 
+### Initial Concept - Wire Frames
+* The vast majority of the initial design concept was followed with only a few alterations either due to an aspect not being required (e.g additional 'contact us' button on services page at bottom, map within footer) or to timely to install (e.g chatbox  on contact us page)
+![Home Page](./assets/images/readme-images/initial-design-home.jpg)<br>
+![Home Page](./assets/images/readme-images/initial-design-services.jpg)<br>
+![Home Page](./assets/images/readme-images/initial-design-gallery.jpg)<br>
+![Home Page](./assets/images/readme-images/initial-design-contact-us.jpg)
+
 ### Website Structure
-* Photohouse website is a four page site: Home Page, Services Page, Gallery Page and Contact Us Page. 
+* Photohouse website consists of four main pages: Home Page, Services Page, Gallery Page and Contact Us Page. 
+* Two additional pages exist (1) Form submission confirmation (Thank You Page) (2) 404 Page.
 * The Home Page has 6 sections: (1) Hero image and cover text, (2) About, (3) Services Overview, (4) Contact Us Button, (5) Gallery Overview, (6) Footer. 
 * The Services Page has 3 sections: (1) Photography, with link to Gallery Page (2) Floorplans, with link to Contact Us Page, (3) EPCs, with link to Contact Us Page.
 * The Gallery Page has 4 sections: (1) Residential photography (2) Lifestyle photography (3) Twilight photography (4) Drone Photography.
 * The Contact Us Page has 3 sections: (1) Message form (2) company Contact Details (3) Map showing company location.
 * All pages have a link to all the pages in the website via the fixed Navigation Bar (at the top of the users screen), and the footer section (at the bottom of each page). 
 
-#### Colour Scheme
+### Colour Scheme
 * There are three main colours used: (1) white (#fff), (2) green (#82AF21), (3) dark blue (#2F4858). Each colour is used for various roles throughout the website in order maintain a fresh appearance through creativity whilst remaining consistent so as not to become random or chaotic.
 * In the Services Section on the Home Page the user will see a linear gradient as the background using the six colours in the same generic gradient as the green (#82AF21) and dark blue (#2F4858) at 158 degrees.
 * All colours match the hero image on the Home Page in order to create the sense of intention and consideration, as well as attention to detail which is a nod to the company's about section.<br>
  ![Colour Scheme](./assets/images/readme-images/colour-gradient.jpg)
 
 
-#### Typography
+### Typography
 * The Anton, sans-serif is used for the company logo. Chosen for being bold and hard to miss.
 * The Lato, sans-serif is used for section headings. Chosen for lending itself well to being used as large font without being overbearing.
 * The Dancing Script, sans-serif is used to display either quotes or less important headings. Chosen for adding a sense of 'personal touch' thus cultivating a feeling of attention to detail, passion and approachabiity. 
@@ -80,7 +98,7 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 ![Typography](./assets/images/readme-images/ds&p.jpg)
 
          
-#### Imagery
+### Imagery
 * Hero image chosen to conveys quality, care and attention, warmth and modern styling. All qualities the company wishes to associate with. The image is also a good example of the quality of work the company can produce.
 * 4 images are used in the Gallery Section of the Home Page to symbolise a style of photography, residential, lifestyle, twilight and drone. 
 * 2 images are used in the Contact Us Section of the Home Page which are fixed in place whilst the user is scrolling. Images change at screen-width 800px to better suit the device. 
@@ -150,9 +168,16 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 * Having multiple calls to action for contacting the company is important in order to reach the website's goal of generating more enquiries.
 [Gallery Section On Home Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contact-us-container)<br>
 [Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contactUs)<br>
-![Gallery Intro](./assets/images/readme-images/contact-us.jpg)<br>
+![Contact Us Section on Home Page](./assets/images/readme-images/contact-us.jpg)<br>
 [Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contactUs)<br>
-![Gallery Page](./assets/images/readme-images/contact-us-page.jpg)
+![Contact Us Page](./assets/images/readme-images/contact-us-page.jpg)
+
+### Thank You Page
+
+* A thank you page will be displayed to the user once a message form has been submitted.
+* This allows the user to immediately know their message has sent successfully and manages expectations on when a response is likely.<br>
+[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/thank-you.html)<br>
+![Thank You](./assets/images/readme-images/thank-you.jpg)
 
 
 ### Footer Section
@@ -162,67 +187,61 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 [Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#footer)<br>
 ![Footer Section](./assets/images/readme-images/footer.jpg)
 
+## Favicon
 
+* A favicon will appear in the in the tab header to allow for easy identification of the website.
+* The favicon is an abbreviation of the company name and is consisitent with colours used in the webiste.<br>
+[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html)<br>
+![Favicon](./assets/images/readme-images/favicon.jpg)
 
+### 404 Page
 
+* A 404 error page will be displayed should a broken link be used when navigating the website.
+* A link returning to the home button is immediately obvious allowing for improved UX<br>
+[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/404.html)<br>
+![404 Error](./assets/images/readme-images/404.jpg)
 
+## Future Features
 
-
-
-
-
-* [Future Features](#future-features)
-    * [Customer Review Section](#customer-review-section)
-* [Technologies Used](#technologies-used)
-    * [Languages Used](#languages-used)
-    * [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
-* [Testing](#testing)
-    * [Bugs](#bugs)
-    * [Website Development Issues](#website-development-issues)
-* [Deployment](#deployment-this-project)
-    * [Deployment This Project](#deployment-this-project)
-    * [Forking This Project](#forking-this-project)
-    * [Cloning This Project](#cloning-this-project)
-* [Credits](#credits)
-* [Content](#content)
-
+* Chatbox intergration to allow users to chat instantly with the company.
+* Contact Form to be updated with javascript to send email to the company with contact information.
 
 ## Technologies Used
 
-### Languages Used 
+* HTML
+    * The structure of the website was developed using HTML as the main language.
 
-* [HTML5](https://en.wikipedia.org/wiki/HTML5).
-* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
-* [Bootstrap](https://getbootstrap.com/).
+* CSS
+    * The website was styled using custom CSS in an external file.
 
-### Frameworks - Libraries - Programs Used
+* Visual Studio Code
+    * The website was developed using Visual Stuido Code IDE.
 
-* [Google Fonts:](https://fonts.google.com/)
-   * Google fonts were used to import the 'Poppins' and 'El Messiri' fonts throughout the style.css.
-* [Font Awesome:](https://fontawesome.com/)
-    * Font Awesome are used as an icons for user UX purposes.
-* [Git](https://git-scm.com/)
-    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-* [GitHub:](https://github.com/)
-    * GitHub is used to store the project's code after being pushed from Git.
-* [PIXLR:](https://pixlr.com/pt/)
-    * PIXLR was used to create, modify and resize all images on this website.
-* [Canva](https://www)
-    * Canva was used to creat the image logo, favicon and also the office image.
-  
+* GitHub
+    * Source code is hosted on GitHub and deployed using Git Pages.
+
+* Git
+    * Used to commit and push code during the development of the webiste.
+
+* Font Awesome
+    * Icons sourced from https://fontawesome.com/.
+
+* Google Fonts
+    * https://fonts.google.com/ were used to import the styling fonts through the style.css.
+
+* Tinyjpg
+    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website.
+
+* Favicon
+    * https://favicon.io/favicon-generator/ was used to create the favicon.
+
+* Initial Design Concepts
+    * Were created using Microsoft Paint
+
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
-* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1%2Findex.html)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
-
-Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
-
-The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the Huawei P20.
-
-* Responsive on all device sizes between 280px - 2600px wide
-
+### Responsiveness
+* All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
 * Devices tested using the Google Developer Tools emulator
 
     * BlackBerry Z30 (360px x 640px)  
@@ -244,32 +263,64 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
     * Apple iPhone 6/7/8 Plus (414px x 736px)
     * Apple iPhone X (375px x 812px)
 
-* Desktop Results:
+* Issue was found when testing iPhone 4 in that nav menu wouldn't display correction due to length of menu and short screen height. Specific media query was created for the iPhone 4 to correct this.
 
-  ![Lighthouse Destop Result](./assets/images/readme-images/travel-world-lighthouse-desktop-results.jpg).
+### Validators
 
-* Mobile Results:
+* The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) 
+    * [Home Page Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftonywilson1211.github.io%2FP1_Photohouse%2Findex.html)
+    * [Services Page Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftonywilson1211.github.io%2FP1_Photohouse%2Fservices.html)
+    * [Gallery Page Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftonywilson1211.github.io%2FP1_Photohouse%2Fgallery.html)
+    * [Contact Us Page Results](https://tonywilson1211.github.io/P1_Photohouse/contact.html)
+    * [Thank You Page Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftonywilson1211.github.io%2FP1_Photohouse%2Fthank-you.html)
+    * [404 Page Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftonywilson1211.github.io%2FP1_Photohouse%2F404.html)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+    * ![Website Results](./assets/images/readme-images/css-validator.jpg)
 
-  ![Lighthouse Mobile Result](./assets/images/readme-images/travel-world-lighthouse-mobile-results.jpg).
+### Lighthouse
+Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO.
+* Webiste results
+    * ![Home Page](./assets/images/readme-images/lighthouse-index.jpg)
+    * ![Services Page](./assets/images/readme-images/lighthouse-services.jpg)
+    * ![Gallery Page](./assets/images/readme-images/lighthouse-gallery.jpg)
+    * ![Contact Us Page](./assets/images/readme-images/lighthouse-contact.jpg)
 
-   ## Functionality
-* All links have been hovered and clicked to ensure accessibility.
+
+### Functional Testing 
+
+
+
+### Accessibility
+
+
+
+
+    * [Bugs](#bugs)
+    * [Website Development Issues](#website-development-issues)
+* [Deployment](#deployment-this-project)
+    * [Deployment This Project](#deployment-this-project)
+    * [Forking This Project](#forking-this-project)
+    * [Cloning This Project](#cloning-this-project)
+* [Credits](#credits)
+* [Content](#content)
+
+
+### Functionality
+* All links have been hovered and clicked to ensure accessibility, and all are working correctly.
 * Pages all load correctly on all device screen sizes.
 * All social media links work correctly and open on a new tab.
 * All images load on each page as intended.
-* All the buttons are working correctly and bring the users to the function that they were built for.
-* The arrows inside the buttons in Landing Page, Thanks Page and Homepage banners, has a fully functional opacity animation.
-* Both the buttons in Homepage cards and in the Contact Page change the background and text color when hovered by the user. They are working without issues.
-* The cards in the Homepage "top trips", change the box shadow when hovered by the user, working correctly.
-* The cards in the Homepage "city breaks", has an image zoom in effect when hovered by the users, working correctly.
+* All navigation links are working correctly and bring the users to the function intended.
+* The form on the contact us page was test to ensure it functioned as expected. Data is required within all sections of the form or submition isn't possible. Thank you page seen as expected once form filled out correctly and submitted. 
 
-   ## Bugs
+### Bugs
 
-* I was unable to add padding to the arrow default in the form select.
-
-   ## Website Development Issues
-
-* At the initial stages of my project, I made an error when using Git Commit. Following my first call with my mentor he clarified how to do it and I have followed his recommended approach.
+* Navigation links to particular sections of a webpage were loading out of alignment. This was fixed by using 'scroll-margin' and adjusting to height of navbar. 
+* iPhone 4 screen height was found to be shorter than the nav menu meaning part of the nav menu was unreachable. This was fixed by implementing a specific media query for screen heights less than 590px.
+* On Home Page, sections would overlap each other when testing responsiveness. This was fixed by setting About Section, Services Section and Gallery Section to 'max-height: 100%;'
+* On Services Page, float was used for initial layout however issues arose with responsiveness testing. This was fixed by rebuilding the page based on grid layout. 
+* No further bugs found to be present on website. 
 
 ## Deployment of This Project
 
@@ -280,10 +331,9 @@ The website development was created in the "main" branch. This branch was deploy
 1. Open [GitHub](https://github.com/).
 2. Click on the project to be deployed.
 3. Navigate to the "Settings".
-4. Navigate down to the "GitHub Pages".
-5. Click on "Check it out here!".
-6. Select the "main" branch and select "Save".
-7. The link to the live website was ready on the top.
+4. Navigate to the "Pages" in column on left.
+5. Select the "main" branch and select "Save".
+6. The link to the live website was ready on the top.
 
 ## Forking This Project
 
@@ -292,7 +342,7 @@ The website development was created in the "main" branch. This branch was deploy
 1. Open [GitHub](https://github.com/).
 2. Click on the project to be forked.
 3. Find the 'Fork' button to the top right of the page.
-4. Once you click the button the fork will be in your repository..
+4. Once you click the button the fork will be in your repository.
 
 ## Cloning This Project
 
@@ -300,7 +350,7 @@ The website development was created in the "main" branch. This branch was deploy
 
 1. Open [GitHub](https://github.com/).
 2. Click on the project to be cloned.
-3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
+3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL.
 4. Once you click the button the fork will be in your repository.
 5. Open a new terminal.
 6. Change the current working directory to the location that you want the cloned directory.
@@ -311,27 +361,22 @@ The website development was created in the "main" branch. This branch was deploy
 
 ### Information Sources/Resources
 
+* [Navbar and services section layout](https://www.youtube.com/watch?v=lgeoAUvoRJU&t=1776s)
+* [Gallery section overlay and Gallery Page layout](https://www.youtube.com/watch?v=lBfshkPlMW8&t=524s)
+* [Footer section layout](https://www.youtube.com/watch?v=mjvOlyeS2PQ)
+* [Contact Page Form and layout](https://www.youtube.com/watch?v=KZgMh-CDpa4)
+* [Services Page layout](https://www.youtube.com/watch?v=-A_HESNP1T8)
 * [W3Schools](https://www.w3schools.com/).
-
-* [Stack Overflow](https://stackoverflow.com/).
-  
+* [Flexbox Froggy](https://www.flexboxfroggy.com)
 
 ## Content
 
-* All the text content is original. The quote in the footer is from [Andre Gide](https://www.brainyquote.com/quotes/andre_gide_120088).
+* All the text content is adapted from original source at [Fresh Photography](https://www.freshphotohouse.com/).
 
 ### Images
 
-* All images were provided and used under the Unsplash licence [Unsplash.com](https://unsplash.com/license).
-
-### Video
-
-* The video was provided and used under the Pexels licence [Unsplash.com](https://www.pexels.com/video/aerial-view-of-an-infinity-pool-in-maldives-beach-resorts-4069480/).
-
-### Trust Section Icons
-
-* All the icons were provided and used under the Icons8 licence [Icons8.com](https://icons8.com/icons/set/best-price).
+* I have ownership of all images used except for drone photographs which were sourced from [Unsplash.com](https://unsplash.com).
   
 ## Special Thanks
 
- * Special thanks to my mentor Sandeep Aggarwal, my colleagues at Code Institute, Kasia Bogucka and Mairéad Gillic for their assistance throughout this project.
+ * Special thanks to my mentor Gareth McGirr for their assistance with solving the scroll-margin bug and providing helpful resources.
