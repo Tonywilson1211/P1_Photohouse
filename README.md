@@ -13,26 +13,26 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 # README Contents
 
 * [Introduction](#introduction)
-* [User Experience (UX)](#user-experience-UX)
+* [User Experience (UX)](#user-experience)
     * [User stories](#user-stories)
-* [Design](#Design)
+* [Design](#design)
+    * [Initial Design - Wireframe](#initial-concept---wire-frames)
     * [Website Structure](#website-structure)
     * [Colour Scheme](#colour-scheme)
     * [Typography](#typography)
     * [Imagery](#imagery)
-    * [Videos](#videos)
     * [Google Maps](#google-maps)
-    * [interactive Links](#interactive-links) 
-* [Existing Features](#features)
+    * [Interactive Links](#interactive-links) 
+* [Existing Features](#existing-features)
     * [Landing Page](#landing-page)
     * [Navigation Bar](#navigation-bar)
     * [About Section](#about-section)
     * [Services Section](#services-section)
     * [Gallery Section](#gallery-section)
     * [Contact Us Section](#contact-us-section)
+    * [Favicon](#favicon)
     * [Thank You Page](#thank-you-page)
     * [Footer Section](#footer-section)
-    * [Favicon](#favicon)
     * [404 Error](#404-page)
 * [Future Features](#future-features)
 * [Technologies Used](#technologies-used)
@@ -51,7 +51,7 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 * [Content](#content)
 
 
-## User Experience - UX
+## User Experience
 
  ### User Stories
 
@@ -180,14 +180,6 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 [Gallery Page - Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html#contactUs)<br>
 ![Contact Us Page](./assets/images/readme-images/contact-us-page.jpg)
 
-### Thank You Page
-
-* A thank you page will be displayed to the user once a message form has been submitted.
-* This allows the user to immediately know their message has sent successfully and manages expectations on when a response is likely.<br>
-[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/thank-you.html)<br>
-![Thank You](./assets/images/readme-images/thank-you.jpg)
-
-
 ### Footer Section
 
 * The footer containers the company's contact details, location, opening hours, copyright and additional navigation links and social media links.
@@ -201,6 +193,13 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 * The favicon is an abbreviation of the company name and is consisitent with colours used in the webiste.<br>
 [Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/index.html)<br>
 ![Favicon](./assets/images/readme-images/favicon.jpg)
+
+### Thank You Page
+
+* A thank you page will be displayed to the user once a message form has been submitted.
+* This allows the user to immediately know their message has sent successfully and manages expectations on when a response is likely.<br>
+[Live Feature Here](https://tonywilson1211.github.io/P1_Photohouse/thank-you.html)<br>
+![Thank You](./assets/images/readme-images/thank-you.jpg)
 
 ### 404 Page
 
@@ -249,29 +248,49 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
 ## Testing
 
 ### Responsiveness
-* All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
+* All pages were tested to ensure responsiveness on screen sizes from 320px upwards, as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
 * Devices tested using the Google Developer Tools emulator
 
-    * BlackBerry Z30 (360px x 640px)  
-    * BlackBerry PlayBook (600px x 1024px)  
-    * Samsung Galaxy Note 3 (360px x 640px) 
-    * Samsung Galaxy S3 (360px x 640px)   
-    * Samsung Galaxy S9+(320px x 658px) 
-    * LG Optimus L70 (384px x 640px)
-    * Microsoft Lumia 550 (640px x 360px) 
-    * Microsoft Lumia 950 (360px x 640px) 
-    * Nexus 4 (384px x 640px) 
-    * Nokia Lumia 520 (320px x 533px) 
-    * Nokia N9 (480px x 854px) 
-    * Pixel 3 (393px x 786px)
-    * Apple iPad Mini (468px x 4024)
+
     * Apple iPhone 4 (320px x 480px)
     * Apple iPhone 5/S (320px 568px)
-    * Apple iPhone 6/7/8 (375px x 667px)
-    * Apple iPhone 6/7/8 Plus (414px x 736px)
+    * Nokia Lumia 520 (320px x 533px) 
+    * Samsung Galaxy S9+(320px x 658px) 
+    * Google Pixel 4 (353px x 745px)
+    * BlackBerry Z30 (360px x 640px)  
+    * Samsung Galaxy Note 3 (360px x 640px) 
+    * Samsung Galaxy S3 (360px x 640px)
+    * Microsoft Lumia 950 (360px x 640px) 
+    * Samsung Galaxy S8 (360 x 740px)  
     * Apple iPhone X (375px x 812px)
+    * Apple iPhone 6/7/8 (375px x 667px)
+    * LG Optimus L70 (384px x 640px)
+    * Nexus 4 (384px x 640px) 
+    * Apple iPhone 12 Pro (390px x 844px)
+    * Pixel 3 (393px x 786px)
+    * Google Pixel 5 (393px x 851px)
+    * Google Pixel 2 (411px x 731px)
+    * Nexus 5X (412px x 732px)
+    * Samsung Galaxy S20 Ultra (412px x 915px)
+    * Apple iPhone XR (414px x 896px)
+    * Apple iPhone 6/7/8 Plus (414px x 736px)
+    * Apple iPad Mini (468px x 4024)
+    * Nokia N9 (480px x 854px) 
+    * Surface Duo (540px x 720px)
+    * BlackBerry PlayBook (600px x 1024px) 
+    * Nexus 7 (600px x 960px)
+    * Microsoft Lumia 550 (640px x 360px)  
+    * Samsung Galaxy Tab S4 (712px x 1138px)
+    * Apple iPad Mini (768px x 1024px)
+    * Kindle Fire HDX (800px x 1280px)
+    * Apple iPad Air (820px x 1180px)
+    * Surface Pro 7 (912px x 1368px)
+    * Apple iPad Pro (1024px x 1366px)
+    * Nest Hub (1024px x 600px)
+    * Nest Hub Max (1280px x 800px)
 
 * Issue was found when testing iPhone 4 in that nav menu wouldn't display correction due to length of menu and short screen height. Specific media query was created for the iPhone 4 to correct this.
+* Two devices identified as not being compatable with the webiste (1) Galaxy Fold (280px x 653px) (2) JioPhone 2 (240px x 320px). The will resolved in future updates. 
 
 ### Validators
 
