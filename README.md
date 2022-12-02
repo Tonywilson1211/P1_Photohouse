@@ -41,6 +41,14 @@ The website uses HTML and CSS code only, and is interative, provides constant fe
     * [Validators](#validators)
     * [Lighthouse](#lighthouse)
     * [Functional Testing](#functional-testing)
+    * [Bugs](#bugs)
+    * [Website Development Issues](#website-development-issues)
+* [Deployment](#deployment-this-project)
+    * [Deployment This Project](#deployment-this-project)
+    * [Forking This Project](#forking-this-project)
+    * [Cloning This Project](#cloning-this-project)
+* [Credits](#credits)
+* [Content](#content)
 
 
 ## User Experience - UX
@@ -288,26 +296,9 @@ Google Lighthouse was used to test Performance, Best Practices, Accessibility an
 
 
 ### Functional Testing 
-
-
-
-### Accessibility
-
-
-
-
-    * [Bugs](#bugs)
-    * [Website Development Issues](#website-development-issues)
-* [Deployment](#deployment-this-project)
-    * [Deployment This Project](#deployment-this-project)
-    * [Forking This Project](#forking-this-project)
-    * [Cloning This Project](#cloning-this-project)
-* [Credits](#credits)
-* [Content](#content)
-
-
-### Functionality
 * All links have been hovered and clicked to ensure accessibility, and all are working correctly.
+* All images have alt attributes
+* All links have ariel-labels
 * Pages all load correctly on all device screen sizes.
 * All social media links work correctly and open on a new tab.
 * All images load on each page as intended.
@@ -368,6 +359,7 @@ The website development was created in the "main" branch. This branch was deploy
 * [Services Page layout](https://www.youtube.com/watch?v=-A_HESNP1T8)
 * [W3Schools](https://www.w3schools.com/).
 * [Flexbox Froggy](https://www.flexboxfroggy.com)
+* [Inspiration of features](https://pedrocristo.github.io/portfolio_project_1/home.html)
 
 ## Content
 
@@ -379,4 +371,4 @@ The website development was created in the "main" branch. This branch was deploy
   
 ## Special Thanks
 
- * Special thanks to my mentor Gareth McGirr for their assistance with solving the scroll-margin bug and providing helpful resources.
+ * Special thanks to my mentor Gareth McGirr for their assistance throughout the project, specifically with solving the 'scroll-margin' bug and providing helpful resources and guidance.
