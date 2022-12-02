@@ -203,7 +203,15 @@ nav ul li a:hover {
 
 /* text config */
 
-.center-about h1 {
+#about h1 {
+    font-family: 'dancing script', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #82af21;
+    padding: 10px 10px;
+}
+
+#about h2 {
     color: #fff;
     font-size: 3em;
     padding-bottom: 10px;
