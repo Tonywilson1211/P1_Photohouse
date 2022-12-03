@@ -30,13 +30,13 @@ nav {
     color:#82af21;
     font-size: 3.5em;
     letter-spacing: 2px;    
-    font-family: 'Anton', sans-serif;    
+    font-family: 'anton', sans-serif;    
     font-weight: bold;
 }
 
 nav span {
     color: #fff;
-    font-family: 'Anton', sans-serif;
+    font-family: 'anton', sans-serif;
 }
 
 /* contact us button made to be bold, obvious and enlarges on hover */
@@ -892,14 +892,14 @@ nav ul li a:hover {
 
 #footer h3 {
     color: #fff;
-    font-family: 'Anton', sans-serif;
+    font-family: 'anton', sans-serif;
     letter-spacing: 3px;
     font-size: 2em;
 }
 
 #footer h3 span {
     color: #82af21;
-    font-family: 'Anton', sans-serif;
+    font-family: 'anton', sans-serif;
     letter-spacing: 4px;
 }
 
@@ -1381,8 +1381,7 @@ nav ul li a:hover {
 /* contact us section - home page @ 800px - change background image to better suit screen size */
     
     #contact-us-container {
-        background: url('../images/Twilight1.webp') no-repeat fixed;
-        background-position: left;
+        background: url('../images/site-images/twilight1.webp') no-repeat left fixed;
     }
 
     .contact-us-button {
@@ -1396,7 +1395,7 @@ nav ul li a:hover {
         min-height: 100%;
     }
    
-    
+/* gallery collapes to be 1 image per row */
     .gallery-image {
         flex-basis: 90%;
         border-radius: 7px;
