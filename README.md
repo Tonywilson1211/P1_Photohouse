@@ -12,6 +12,11 @@ The website uses HTML and CSS code only, and is interactive, provides constant f
 
 # README Contents
 
+<details>
+<summary>
+    Expand
+</summary>
+
 * [Introduction](#introduction)
 * [User Experience (UX)](#user-experience)
     * [User stories](#user-stories)
@@ -50,6 +55,7 @@ The website uses HTML and CSS code only, and is interactive, provides constant f
 * [Credits](#credits)
 * [Content](#content)
 
+</details>
 
 ## User Experience
 
@@ -74,11 +80,18 @@ The website uses HTML and CSS code only, and is interactive, provides constant f
 ## Design
 
 ### Initial Concept - Wire Frames
-* The vast majority of the initial design concept was followed with only a few alterations either due to an aspect not being required (e.g additional 'contact us' button on services page at bottom, map within footer) or to timely to install (e.g chatbox  on contact us page)
+* The vast majority of the initial design concept was followed with only a few alterations either due to an aspect not being required (e.g additional 'contact us' button on services page at bottom, map within footer) or to timely to install (e.g chatbox  on contact us page)<br>
+<details>
+<summary>
+Expand
+</summary>
+
 ![Home Page](./assets/images/readme-images/initial-design-home.jpg)<br>
 ![Home Page](./assets/images/readme-images/initial-design-services.jpg)<br>
 ![Home Page](./assets/images/readme-images/initial-design-gallery.jpg)<br>
 ![Home Page](./assets/images/readme-images/initial-design-contact-us.jpg)
+
+</details>
 
 ### Website Structure
 * Photohouse website consists of four main pages: Home Page, Services Page, Gallery Page and Contact Us Page. 
